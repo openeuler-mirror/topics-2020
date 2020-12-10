@@ -1,0 +1,10 @@
+community: "openeuler"
+repositories:
+- name: abichecker 
+  description: "An abi checker tool"
+  protected_branches:
+  - master
+  type: public
+  owner:
+  - zhangsan
+  - lisi
