@@ -4,7 +4,7 @@ teams:
   teamname: OSCHINA
   description: "This  is  a  template  repository."
   repository: template
-  type: public
+  repotype: public
   tutor:
   - biglizi
   members:
