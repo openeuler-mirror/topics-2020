@@ -27,7 +27,7 @@
 <tr>
 <td>giteeurl</td>
 <td>字符串</td>
-<td>在码云上的组织URL地址</td>
+<td>在码云上的组织URL地址，由大赛组委会指定</td>
 </tr>
 <tr>
 <td>teams</td>
