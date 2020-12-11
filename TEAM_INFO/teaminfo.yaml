@@ -2,9 +2,9 @@ community: "openeuler2020"
 repositories:
 - name: template 
   description: "This is a template repository."
+  type: private
   protected_branches:
   - master
-  type: private
   tutor:
   - biglizi
   members:
