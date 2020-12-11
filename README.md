@@ -1,4 +1,4 @@
-# topics-2020
+# 2020 openEuler高校开发者大赛
 
 #### 介绍
 2020 openEuler高校开发者大赛组织管理仓库
@@ -10,7 +10,7 @@
 
 #### 使用说明
 
-1.  参赛团队信息填写说明参加[说明文档](https://gitee.com/openeuler-competition/topics-2020/blob/master/TEAM_INFO/README.md)
+1.  参赛团队的信息填写参考[说明文档](https://gitee.com/openeuler-competition/topics-2020/blob/master/TEAM_INFO/README.md)
 2.  相关信息了解可参见[大赛官网](https://www.oschina.net/2020-openeuler/)或[openEuler官网](https://openeuler.org/)
 3.  如有课题疑问请联系课题导师
 
