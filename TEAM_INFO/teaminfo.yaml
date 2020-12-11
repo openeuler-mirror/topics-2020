@@ -2,7 +2,7 @@ community: "openeuler2020"
 repositories:
 - name: template 
   description: "This is a template repository."
-  type: private
+  type: public
   protected_branches:
   - master
   tutor:
