@@ -1,10 +1,10 @@
 community: "openeuler2020"
-repositories:
-- name: template 
-  description: "This is a template repository."
+teams:
+- teamid: 0000
+  teamname: OSCHINA
+  description: "This  is  a  template  repository."
+  repository: template
   type: public
-  protected_branches:
-  - master
   tutor:
   - biglizi
   members:
