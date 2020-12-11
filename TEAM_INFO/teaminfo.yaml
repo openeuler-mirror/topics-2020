@@ -1,10 +1,10 @@
-community: "openeuler"
+community: "openeuler2020"
 repositories:
-- name: abichecker 
-  description: "An abi checker tool"
+- name: template 
+  description: "This is a template repository."
   protected_branches:
   - master
-  type: public
+  type: private
   owner:
-  - zhangsan
-  - lisi
+  - openeuler-ci-bot
+  - georgecao
