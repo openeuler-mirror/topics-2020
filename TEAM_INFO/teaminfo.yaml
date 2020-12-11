@@ -5,6 +5,8 @@ repositories:
   protected_branches:
   - master
   type: private
-  owner:
-  - openeuler-ci-bot
+  tutor:
+  - biglizi
+  members:
+  - leikeke
   - georgecao
