@@ -1,11 +1,13 @@
-community: "openeuler2020"
+community: openeuler2020
+version: 1.0
+giteeurl: https://gitee.com/openeuler2020
 teams:
 - teamid: 0000
   teamname: OSCHINA
   description: "This  is  a  template  repository."
   repository: template
   repotype: public
-  tutor:
+  tutor: 
   - biglizi
   members:
   - leikeke
