@@ -26,19 +26,19 @@ def add_repo_member(team, community, orgtoken):
     :param orgtoken:
     :return:
     '''
-    member_url = REPO_API + community + '/' + \
+    repo_url = REPO_API + community + '/' + \
         team['repository'] + '/collaborators/'
     user = team['members'] + team['tutor']
     for member in user:
-        member_url = member_url + member['giteeid']
-        param = {'access_token': '679918f879a12d327058af1e76a09c90',
+        member_url = repo_url + member['giteeid']
+        param = {'access_token': orgtoken,
                  'permission': 'push'}
         response = requests.put(member_url, params=param)
         if response.status_code != 200:
-            print(
-                "Add repo member:{} to repo:{} failed.".format(
+            print("Add repo member:{} to repo:{} failed, ret:{}.".format(
                     member['giteeid'],
-                    team['repository']))
+                    team['repository'],
+                    response.status_code))
             continue
     return
 
@@ -220,6 +220,7 @@ def teamid_valid_check(team, legalids):
     '''
     issue_found = 0
     if team['teamid'] not in legalids:
+        print("Team id:{} is not in legal team id list.", team['teamid'])
         issue_found += 1
     return issue_found
 
@@ -375,6 +376,8 @@ def main():
     url = data["giteeurl"]
     teams = data["teams"]
 
+    print("FileVersion:{},\nCommunity:{},\nUrl:{},\nTeam0:{},\n LegalIds:{}.".format(version,
+                 community, url, teams[0], legal_ids['legal_team_ids'][0]))
     issue_total = 0
 
     issue_total += validaty_check_version(version)
@@ -384,6 +387,7 @@ def main():
                                            legal_ids['legal_team_ids'])
 
     if issue_total != 0:
+        print("Exit system with issue count: {}.".format(issue_total))
         sys.exit(issue_total)
 
     '''
@@ -391,15 +395,7 @@ def main():
     '''
     check_and_create_teamrepo(teams, community, orgtoken)
 
-    print(
-        "Token {},\nFileVersion:{},\nCommunity:{},\nUrl:{},\nTeam0:{},\n LegalIds:{}.".format(
-            cfgtoken,
-            version,
-            community,
-            url,
-            teams[0],
-            legal_ids['legal_team_ids'][0]))
-
+    print("FINISH")
 
 if __name__ == '__main__':
     main()

@@ -2,11 +2,11 @@ community: openeuler2020
 version: 1.0
 giteeurl: https://gitee.com/openeuler2020
 teams:
-- teamid: 0000
+- teamid: 123324214343
   teamname: OSCHINA
   description: "This  is  a  template  repository."
   repository: template
-  repotype: public
+  repotype: private
   tutor: 
   - giteeid: biglizi
     email: chenshuyu@oschina.cn
