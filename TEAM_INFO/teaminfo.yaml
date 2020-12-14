@@ -8,7 +8,10 @@ teams:
   repository: template
   repotype: public
   tutor: 
-  - biglizi
+  - giteeid: biglizi
+    email: chenshuyu@oschina.cn
   members:
-  - leikeke
-  - georgecao
+  - giteeid: leikeke
+    email: leikeke2@huawei.com
+  - georgecao:
+    email: caozhi1214@qq.com
