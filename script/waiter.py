@@ -110,7 +110,7 @@ def check_and_create_teamrepo(teams, community, orgtoken):
 
 def team_has_keyfield(team):
     issue_found = 0
-    if 'teamid' not in team.keys() or len(team['teamid']) == 0:
+    if 'teamid' not in team.keys():
         print("There is no team id.")
         issue_found += 1
         return issue_found
@@ -169,9 +169,9 @@ def repo_member_valid_check(user, token):
         print("Get User{} cla info failed.".format(user['giteeid']))
         issue_found += 1
         return issue_found
-    if not response.data.signed:
-        print("User{} has not signed CLA.".format(user['giteeid']))
-        issue_found += 1
+#    if not response.data.signed:
+#        print("User{} has not signed CLA.".format(user['giteeid']))
+#        issue_found += 1
 
     return issue_found
 
@@ -185,6 +185,10 @@ def member_check(team, token):
     issue_found = 0
     membersinfo = team['members']
     for member in membersinfo:
+        if 'giteeid' not in member.keys():
+            continue
+        if 'email' not in member.keys():
+            continue
         issue_found += repo_member_valid_check(member, token)
 
     return issue_found
@@ -199,6 +203,10 @@ def tutor_check(team, token):
     issue_found = 0
     tutorsinfo = team['tutor']
     for tutor in tutorsinfo:
+        if 'giteeid' not in tutor.keys():
+            continue
+        if 'email' not in tutor.keys():
+            continue
         issue_found += repo_member_valid_check(tutor, token)
 
     return issue_found
