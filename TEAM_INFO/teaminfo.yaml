@@ -8,19 +8,10 @@ teams:
   repository: template
   repotype: private
   tutor: 
-  - giteeid: biglizi
+  - giteeid: zhangsanfeng
     email: zhangsan@oschina.cn
   members:
-  - giteeid: leikeke
+  - giteeid: littlegirl
     email: lisi2@huawei.com
-  - giteeid: georgecao
-    email: wangwu1214@qq.com
-- teamid: 123456
-  teamname: "开源中国"
-  description: "赛题77，团队编号：0000，团队名称：开源中国"
-  repository: template
-  repotype: public
-  tutor: 
-  - biglizi
-  members:
-  - fengfeiyun
+  - giteeid: george
+    email: wangwu123@qq.com
