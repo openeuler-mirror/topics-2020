@@ -9,6 +9,9 @@ import os
 import sys
 import requests
 
+reload(sys)   
+sys.setdefaultencoding('utf8')   
+
 TEAMINFO = "TEAM_INFO/teaminfo.yaml"
 LEGALIDS = "TEAM_INFO/legalids.yaml"
 COMMUNITY = "openeuler2020"
