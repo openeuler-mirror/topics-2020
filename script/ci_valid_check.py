@@ -263,8 +263,6 @@ def main():
     url = data["giteeurl"]
     teams = data["teams"]
 
-    print("FileVersion:{},\nCommunity:{},\nUrl:{},\nTeam0:{},\n LegalIds:{}.".format(version,
-                 community, url, teams[0], legal_ids['legal_team_ids'][0]))
     issue_total = 0
 
     issue_total += validaty_check_version(version)
