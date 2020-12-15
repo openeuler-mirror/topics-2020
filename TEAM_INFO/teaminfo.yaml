@@ -15,3 +15,13 @@ teams:
     email: leikeke2@huawei.com
   - giteeid: georgecao
     email: caozhi1214@qq.com
+
+- teamid: 123456
+  teamname: "开源中国"
+  description: "赛题77，团队编号：0000，团队名称：开源中国"
+  repository: template
+  repotype: public
+  tutor: 
+  - biglizi
+  members:
+  - fengfeiyun
