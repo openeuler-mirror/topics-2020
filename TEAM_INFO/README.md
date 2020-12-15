@@ -64,7 +64,7 @@
 <tr>
 <td>description</td>
 <td>字符串</td>
-<td>参赛队详细信息描述，可选参数</td>
+<td>参赛队详细信息描述，必填，需注明参赛赛题题号、队伍编号、团队名称</td>
 </tr>
 <tr>
 <td>repository</td>
@@ -94,7 +94,7 @@ giteeurl: https://gitee.com/openeuler2020
 teams:
 - teamid: 0000
   teamname: OSCHINA
-  description: "This  is  a  template  repository."
+  description: "赛题77，团队编号：0000，团队名称：OSCHINA"
   repository: template
   repotype: public
   tutor: 
