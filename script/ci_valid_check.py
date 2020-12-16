@@ -16,6 +16,53 @@ COMMUNITY = "openeuler2020"
 ORG_API = "https://gitee.com/api/v5/orgs/"
 USER_API = "https://gitee.com/api/v5/users/"
 CLA_API = "https://clasign.osinfra.cn/api/v1/individual-signing/gitee/openeuler"
+TAG_API = "https://gitee.com/api/v5/repos/{}/{}/pulls/{}/labels"
+LOCAL_REPO = "topics-2020"
+LOCAL_COMMUNITY = "openeuler-competition"
+
+
+def delete_gitee_tag(pr, tag, token):
+    '''
+    delete gitee tag
+    :param pr:
+    :param tags:
+    :return:
+    '''
+    print("Being to delete tag:{} for pr:{}.".format(tag ,pr))
+    if not tag:
+        print("Tag is none.")
+        return
+    pr_tag_url = TAG_API.format(LOCAL_COMMUNITY, LOCAL_REPO, pr)
+    pr_tag_url = pr_tag_url + "/" + tag
+    param = {'access_token': token}
+    response = requests.delete(pr_tag_url, params=param, timeout=10)
+    if response.status_code != 204:
+        print("Delete tag:{} at pr:{} in repo:{} community:{} failed.".format(tag, pr, LOCAL_REPO, LOCAL_COMMUNITY))
+    print("End to delete tag:{}".format(tag))
+    return
+
+
+def add_gitee_tag(pr, tag, token):
+    """
+    add gitee tag
+    :param pr:
+    :param tags:
+    :return:
+    """
+    print("Being to add tag for pr:{}.".format(pr))
+    if not tag:
+        print("Tags are none.")
+        return True
+    pr_tag_url = TAG_API.format(LOCAL_COMMUNITY, LOCAL_REPO, pr)
+    pr_tag_url = pr_tag_url + "?access_token=" + token
+    labels = "[\"{}\"]".format(tag)
+    response = requests.post(pr_tag_url, data=labels, timeout=10)
+    if response.status_code != 201:
+        print("Add tags:{} to community:{} repo:{}, failed:{}.".format(tag, LOCAL_COMMUNITY, LOCAL_REPO, response.status_code))
+        return False
+    print("End add tag:{} for pr:{}.".format(tag, pr))
+    return True
+
 
 def team_has_keyfield(team):
     issue_found = 0
@@ -273,11 +320,16 @@ def main():
         type=str,
         help="Local path of competition manage info repository.")
     par.add_argument(
+        "prnumber",
+        type=int,
+        help="The PR number.")
+    par.add_argument(
         "cfgtoken",
         type=str,
         help="Config repo User token ID information.")
     args = par.parse_args()
     cfgtoken = args.cfgtoken
+    pr = args.prnumber
     data = load_yaml(args.managerepo, TEAMINFO)
     legal_ids = load_yaml(args.managerepo, LEGALIDS)
 
@@ -298,8 +350,12 @@ def main():
 
     if issue_total != 0:
         print("CI FAILED, issue count:{}".format(issue_total))
+        delete_gitee_tag(pr,"ci_successful", cfgtoken)
+        add_gitee_tag(pr, "ci_failed", cfgtoken)
         sys.exit(issue_total)
 
+    delete_gitee_tag(pr,"ci_failed", cfgtoken)
+    add_gitee_tag(pr, "ci_successful", cfgtoken)
     print("FINISH")
 
 if __name__ == '__main__':

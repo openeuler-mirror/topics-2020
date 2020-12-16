@@ -8,12 +8,46 @@ import yaml
 import os
 import sys
 import requests
+import json
 
 TEAMINFO = "TEAM_INFO/teaminfo.yaml"
 LEGALIDS = "TEAM_INFO/legalids.yaml"
 COMMUNITY = "openeuler2020"
 ORG_API = "https://gitee.com/api/v5/orgs/"
 REPO_API = "https://gitee.com/api/v5/repos/"
+LABEL_API = "https://gitee.com/api/v5/repos/{}/{}/pulls/{}/labels"
+INVALID_LABELS = ["ci_failed"]
+LOCAL_COMMUNITY = "openeuler-competition"
+LOCAL_REPO = "topics-2020"
+
+
+def check_pr_valid(pr, invalid_labels, cfgtoken):
+    '''
+    get labels from pr and check if pr need to create repo
+    :param pr:
+    :param invalid_labels:
+    :param cfgtoken:
+    :return:
+    '''
+    if not invalid_labels:
+        return True
+    tag_url = LABEL_API.format(LOCAL_COMMUNITY, LOCAL_REPO, pr)
+    param = {'access_token': cfgtoken, 'page': 1, 'per_page': 20}
+    response = requests.get(tag_url, params=param, timeout=10)
+    if response.status_code != 200:
+        print("Get tags of pr:{} failed.".format(pr))
+        return False
+    all_labels = []
+    jstr = json.loads(response.text)
+    for item in jstr:
+        all_labels.append(item['name'])
+
+    for label in invalid_labels:
+        if label in all_labels:
+            print("There is a tag:{} in pr, can't create repo.".format(label))
+            return False
+
+    return True
 
 
 def add_repo_member(team, community, orgtoken):
@@ -139,10 +173,20 @@ def main():
         type=str,
         help="Local path of competition manage info repository.")
     par.add_argument(
+        "prnumber",
+        type=int,
+        help="Pr number in this repo.")
+    par.add_argument(
+        "cfgtoken",
+        type=str,
+        help = "Cfg repo User token ID information.")
+    par.add_argument(
         "orgtoken",
         type=str,
         help="Organization repo User token ID information.")
     args = par.parse_args()
+    pr = args.prnumber
+    cfgtoken = args.cfgtoken
     orgtoken = args.orgtoken
     data = load_yaml(args.managerepo, TEAMINFO)
     legal_ids = load_yaml(args.managerepo, LEGALIDS)
@@ -152,9 +196,14 @@ def main():
     url = data["giteeurl"]
     teams = data["teams"]
 
+    ret = check_pr_valid(pr, INVALID_LABELS, cfgtoken)
+    if not ret:
+        print("Pr invalid,can't create.")
+        sys.exit(1)
     '''
     begin to create repository
     '''
+    print("Begin to create repo.")
     check_and_create_teamrepo(teams, community, orgtoken)
 
 
