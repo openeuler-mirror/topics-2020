@@ -4,7 +4,7 @@ giteeurl: https://gitee.com/openeuler2020
 teams:
 - teamid: 123324214343
   teamname: "OSCHINA"
-  description: "赛题77，团队编号：0000，团队名称：OSCHINA."
+  description: "TOPIC_ID:77, TEAM_ID:0000, TEAM_NAME:OSCHINA."
   repository: template
   repotype: private
   tutor: 
