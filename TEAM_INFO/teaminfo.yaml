@@ -3,15 +3,13 @@ version: 1.0
 giteeurl: https://gitee.com/openeuler2020
 teams:
 - teamid: 123324214343
-  teamname: "OSCHINA"
-  description: "TOPIC_ID:77, TEAM_ID:0000, TEAM_NAME:OSCHINA."
+  teamname: "TEST_TEAM"
+  description: "TOPIC_ID:88, TEAM_ID:123324214343, TEAM_NAME:TEST_TEAM."
   repository: template
   repotype: private
   tutor: 
-  - giteeid: zhangsanfeng
-    email: zhangsan@oschina.cn
+  - giteeid: georgecao 
+    email: caozhi1214@qq.com
   members:
-  - giteeid: littlegirl
-    email: lisi2@huawei.com
-  - giteeid: george
-    email: wangwu123@qq.com
+  - giteeid: leikeke
+    email: leikeke2@huawei.com

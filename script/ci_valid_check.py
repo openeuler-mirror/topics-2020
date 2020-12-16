@@ -9,6 +9,9 @@ import os
 import sys
 import requests
 import json
+from collections import defaultdict
+from collections import Counter
+
 
 TEAMINFO = "TEAM_INFO/teaminfo.yaml"
 LEGALIDS = "TEAM_INFO/legalids.yaml"
@@ -19,6 +22,138 @@ CLA_API = "https://clasign.osinfra.cn/api/v1/individual-signing/gitee/openeuler"
 TAG_API = "https://gitee.com/api/v5/repos/{}/{}/pulls/{}/labels"
 LOCAL_REPO = "topics-2020"
 LOCAL_COMMUNITY = "openeuler-competition"
+COMMENT_API = "https://gitee.com/api/v5/repos/{}/{}/pulls/{}/comments"
+TWO_COL_COMMENT = "<tr> <th>Item</th> <th>Check Result</th> </tr>"
+THREE_COL_COMMENT = "<tr> <th>Item</th> <th>ID</th>  <th>Check Result</th> </tr>"
+PASS = ":white_check_mark:PASS"
+FAIL = ":x:FAIL"
+
+def send_comment_checkret(pr, token, comment_data):
+    table_head = '<table>'
+    table_tail = '</table>'
+    global COMMENT
+    comment = table_head + comment_data + table_tail
+    comment_url = COMMENT_API.format(LOCAL_COMMUNITY, LOCAL_REPO, pr)
+    pydata = {"access_token": token, "body": comment}
+    headers = {'Content-Type': 'application/json'}
+    rsp = requests.post(comment_url, headers=headers, data=json.dumps(pydata))
+    if rsp.status_code != 201:
+        print(comment_url)
+        print("Send comment to pr:{} failed:{}.".format(pr, rsp.status_code))
+    return
+
+def add_2col_comment_item(item):
+    global TWO_COL_COMMENT
+    TWO_COL_COMMENT += item
+    return
+
+def add_3col_comment_item(item):
+    global THREE_COL_COMMENT
+    THREE_COL_COMMENT += item
+    return
+
+
+def version_comment(result):
+    ver_comment = "<tr> <td>Version</td> <td> {} </td> </tr>"
+    if result:
+        ver_comment = ver_comment.format(PASS)
+    else:
+        ver_comment = ver_comment.format(FAIL)
+    print(ver_comment)
+    add_2col_comment_item(ver_comment)
+    return
+
+def community_comment(result):
+    commu_comment = "<tr> <td>Community</td> <td> {} </td> </tr>"
+    if result:
+        commu_comment = commu_comment.format(PASS)
+    else:
+        commu_comment = commu_comment.format(FAIL)
+    print(commu_comment)
+    add_2col_comment_item(commu_comment)
+    return
+
+def integrity_comment(result):
+    integrity_comment = "<tr> <td>IntegrityCheck</td> <td> {} </td> </tr>"
+    if result:
+        integrity_comment = integrity_comment.format(PASS)
+    else:
+        integrity_comment = integrity_comment.format(FAIL)
+    add_2col_comment_item(integrity_comment)
+    return
+
+def teamid_comment(team_info):
+    cnt = len(team_info)
+    first_col = "<td rowspan={}>TeamID check</td>".format(cnt)
+    teamid_comm = "<tr> {} <td>{}</td> <td>{}</td> </tr>"
+    comment = ""
+    is_first = True 
+    for key in team_info.keys():
+        ret = PASS if team_info[key] else FAIL
+        if is_first:
+            comment += teamid_comm.format(first_col, key, ret)
+            is_first = False
+        else:
+            comment += teamid_comm.format("", key, ret)
+    print(comment)
+    add_3col_comment_item(comment)
+    return
+
+
+def user_comment(user_info):
+    cnt = len(user_info)
+    if cnt == 0:
+        return
+    first_col = "<td rowspan={}>GiteeID check</td>".format(cnt)
+    user_comm = "<tr> {} <td>{}</td> <td>{}</td> </tr>"
+    comment = ""
+    is_first = True
+    for key in user_info.keys():
+        ret = PASS if user_info[key] else FAIL
+        if is_first:
+            comment += user_comm.format(first_col, key, ret)
+            is_first = False
+        else:
+            comment += user_comm.format("", key, ret)
+    add_3col_comment_item(comment)
+    return
+
+
+def cla_comment(clasign_info):
+    cnt = len(clasign_info)
+    if cnt == 0:
+        return
+    first_col = "<td rowspan={}>CLA_SIGN check</td>".format(cnt)
+    cla_comm = "<tr> {} <td>{}</td> <td>{}</td> </tr>"
+    comment = ""
+    is_first = True
+    for key in clasign_info.keys():
+        ret = PASS if clasign_info[key] else FAIL
+        if is_first:
+            comment += cla_comm.format(first_col, key, ret)
+            is_first = False
+        else:
+            comment += cla_comm.format("", key, ret)
+    add_3col_comment_item(comment)
+    return
+
+def repo_comment(repos_info):
+    cnt = len(repos_info)
+    if cnt == 0:
+        return
+    first_col = "<td rowspan={}>Repository check</td>".format(cnt)
+    user_comm = "<tr> {} <td>{}</td> <td>{}</td> </tr>"
+    comment = ""
+    is_first = False
+    for key in repos_info.keys():
+        ret = PASS if repos_info[key] else FAIL
+        if is_first:
+            comment += repos_info.format(first_col, key, ret)
+            is_first = True
+        else:
+            comment += repos_info.format("", key, ret)
+    add_3col_comment_item(comment)
+    return
 
 
 def delete_gitee_tag(pr, tag, token):
@@ -103,7 +238,8 @@ def repo_member_valid_check(user, token):
     :return:
     '''
     print(">>>>>>>>Begin user valid check.")
-    issue_found = 0
+    user_issue = 0
+    cla_issue = 0
     '''
     check user gitee id valid
     '''
@@ -112,8 +248,7 @@ def repo_member_valid_check(user, token):
     response = requests.get(user_url, params=param)
     if response.status_code != 200:
         print("Get User {} information from gitee failed.".format(user['giteeid']))
-        issue_found += 1
-        return
+        user_issue += 1
     '''
     check user cla sign.
     '''
@@ -121,63 +256,72 @@ def repo_member_valid_check(user, token):
     response = requests.get(CLA_API, params=param)
     if response.status_code != 200:
         print("Get User:{} cla info failed.".format(user['giteeid']))
-        issue_found += 1
-        return issue_found
+        cla_issue += 1
+        return user_issue, cla_issue
 
     jstr = json.loads(response.text)
     if 'data' not in jstr.keys():
-        issue_found += 1
+        cla_issue += 1
         print("Json decode failed.")
-        return issue_found
+        return user_issue, cla_issue
     data = jstr['data']
 
     if 'signed' not in data.keys():
-        issue_found += 1
+        cla_issue += 1
         print("Json decode signed field failed.")
-        return issue_found
+        return user_issue, cla_issue
     if not data['signed']:
         print("User{} has not signed CLA.".format(user['giteeid']))
-        issue_found += 1
-    print(">>>>>>>>End user valid check, issue:{}.".format(issue_found))
-    return issue_found
+        cla_issue += 1
+    print(">>>>>>>>End user valid check, issue:{}.".format(user_issue + cla_issue))
+    return user_issue, cla_issue
 
 
-def member_check(team, token):
+def member_check(team, token, user_info, cla_info):
     '''
     check tutor information is valid or not.
     :param tutorinfo:
     :return:
     '''
     print(">>>>>>begin member check.")
-    issue_found = 0
+    user_issue = 0
+    cla_issue = 0
+
     membersinfo = team['members']
     for member in membersinfo:
         if 'giteeid' not in member.keys():
             continue
         if 'email' not in member.keys():
             continue
-        issue_found += repo_member_valid_check(member, token)
-    print(">>>>>>end member check, issue:{}.".format(issue_found))
-    return issue_found
+        user_issue, cla_issue = repo_member_valid_check(member, token)
+        user_info[member['giteeid']] = user_info[member['giteeid']] and (user_issue == 0)
+        cla_info[member['email']] = cla_info[member['email']] and (cla_issue == 0)
+    print(">>>>>>end member check, issue:{}.".format(user_issue + cla_issue))
+    return user_issue, cla_issue
 
 
-def tutor_check(team, token):
+def tutor_check(team, token, user_info, cla_info):
     '''
     check tutor information is valid or not.
     :param tutorinfo:
     :return:
     '''
     print(">>>>>>begin tutor check.")
-    issue_found = 0
+    user_issue = 0
+    cla_issue = 0
+
     tutorsinfo = team['tutor']
     for tutor in tutorsinfo:
         if 'giteeid' not in tutor.keys():
             continue
         if 'email' not in tutor.keys():
             continue
-        issue_found += repo_member_valid_check(tutor, token)
-    print(">>>>>>end tutor check, issue:{}.".format(issue_found))
-    return issue_found
+        user_issue, cla_issue = repo_member_valid_check(tutor, token)
+        user_info[tutor['giteeid']] = user_info[tutor['giteeid']] and (user_issue == 0)
+        cla_info[tutor['email']] = cla_info[tutor['email']] and (cla_issue == 0)
+
+    print(">>>>>>end tutor check, issue:{}.".format(user_issue + cla_issue))
+    return user_issue, cla_issue
 
 
 def teamid_valid_check(team, legalids):
@@ -203,10 +347,13 @@ def teamid_reused_check(teamids):
     '''
     print(">>>>Begin teamid reused check.")
     issue_found = 0
+    ids = []
     if len(teamids) != len(set(teamids)):
+        ids = [item for item, count in Counter(teamids).items() if count > 1]
         issue_found += 1
     print(">>>>End teamid reused check, issue:{}.".format(issue_found))
-    return issue_found
+
+    return issue_found, ids
 
 def orgrepo_reused_check(repos):
     '''
@@ -216,10 +363,12 @@ def orgrepo_reused_check(repos):
     '''
     print(">>>>Begin repo reused check.")
     issue_found = 0
+    reponames = []
     if len(repos) != len(set(repos)):
+        reponames = [item for item, count in Counter(repos).items() if count > 1]
         issue_found += 1
     print(">>>>End repo reused check, issue:{}.".format(issue_found))
-    return issue_found
+    return issue_found, reponames
 
 
 def validaty_check_teaminfo(teams, token, legalids):
@@ -232,23 +381,62 @@ def validaty_check_teaminfo(teams, token, legalids):
     print(">>Begin teaminfo check.")
     issue_found = 0
 
+    integrity_issue = 0
+
+    teamid_issue = 0
+    teamid_info = defaultdict(lambda: True)
+
+    repo_issue = 0
+    repo_info = defaultdict(lambda: True)
+
+    user_issue = 0
+    user_info = defaultdict(lambda: True)
+
+    cla_issue = 0
+    cla_info = defaultdict(lambda: True)
+
     team_ids = []
     org_repos = []
     for team in teams:
-        issue_found += team_has_keyfield(team)
-        issue_found += teamid_valid_check(team, legalids)
-        issue_found += tutor_check(team, token)
-        issue_found += member_check(team, token)
+        integrity_issue = team_has_keyfield(team)
+        issue_found += integrity_issue
 
-        if issue_found == 0:
-            team_ids.append(team['teamid'])
-            org_repos.append(team['repository'])
+        teamid_issue = teamid_valid_check(team, legalids)
+        teamid_info[team['teamid']] = teamid_info[team['teamid']] and (teamid_issue == 0)
+        issue_found += teamid_issue
+
+        user_issue, cla_issue = tutor_check(team, token, user_info, cla_info)
+        issue_found += (user_issue + cla_issue)
+
+        user_issue, cla_issue = member_check(team, token, user_info, cla_info)
+        issue_found += (user_issue + cla_issue)
+
+        team_ids.append(team['teamid'])
+        org_repos.append(team['repository'])
+        repo_info[team['repository']] = True
     '''
     team id, name, repositories reused check
     '''
-    issue_found += teamid_reused_check(team_ids)
-    issue_found += orgrepo_reused_check(org_repos)
+    teamid_issue, teamids = teamid_reused_check(team_ids)
+    if teamid_issue != 0:
+        for id in teamids:
+            teamid_info[id] = False
+    issue_found += teamid_issue
+
+    repo_issue, reponames = orgrepo_reused_check(org_repos)
+    if repo_issue != 0:
+        for name in reponames:
+            repo_info[name] = False
+    issue_found += repo_issue
     print(">>End teaminfo check, issue:{}.".format(issue_found))
+
+    '''
+    add comment
+    '''
+    integrity_comment(integrity_issue == 0)
+    teamid_comment(teamid_info)
+    user_comment(user_info)
+    cla_comment(cla_info)
     return issue_found
 
 
@@ -338,12 +526,16 @@ def main():
     url = data["giteeurl"]
     teams = data["teams"]
 
-    print("FileVersion:{},\nCommunity:{},\nUrl:{},\nTeam0:{},\n LegalIds:{}.".format(version,
-                 community, url, teams[0], legal_ids['legal_team_ids'][0]))
     issue_total = 0
 
-    issue_total += validaty_check_version(version)
-    issue_total += validaty_check_community(community, cfgtoken)
+    version_issue = validaty_check_version(version)
+    version_comment(version_issue == 0)
+    issue_total += version_issue
+
+    community_issue = validaty_check_community(community, cfgtoken)
+    community_comment(community_issue == 0)
+    issue_total += community_issue
+
     issue_total += validaty_check_teaminfo(teams,
                                            cfgtoken,
                                            legal_ids['legal_team_ids'])
@@ -352,10 +544,14 @@ def main():
         print("CI FAILED, issue count:{}".format(issue_total))
         delete_gitee_tag(pr,"ci_successful", cfgtoken)
         add_gitee_tag(pr, "ci_failed", cfgtoken)
+        send_comment_checkret(pr, cfgtoken, TWO_COL_COMMENT)
+        send_comment_checkret(pr, cfgtoken, THREE_COL_COMMENT)
         sys.exit(issue_total)
 
     delete_gitee_tag(pr,"ci_failed", cfgtoken)
     add_gitee_tag(pr, "ci_successful", cfgtoken)
+    send_comment_checkret(pr, cfgtoken, TWO_COL_COMMENT)
+    send_comment_checkret(pr, cfgtoken, THREE_COL_COMMENT)
     print("FINISH")
 
 if __name__ == '__main__':
