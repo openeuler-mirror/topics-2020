@@ -3,8 +3,8 @@ version: 1.0
 giteeurl: https://gitee.com/openeuler2020
 teams:
 - teamid: 123324214343
-  teamname: OSCHINA
-  description: "This  is  a  template  repository."
+  teamname: "OSCHINA"
+  description: "TOPIC_ID:77, TEAM_ID:0000, TEAM_NAME:OSCHINA."
   repository: template
   repotype: private
   tutor: 

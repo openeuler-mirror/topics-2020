@@ -8,6 +8,7 @@ import yaml
 import os
 import sys
 import requests
+import json
 
 reload(sys)   
 sys.setdefaultencoding('utf8')   
@@ -57,6 +58,7 @@ def repo_member_valid_check(user, token):
     :param token:
     :return:
     '''
+    print(">>>>>>>>Begin user valid check.")
     issue_found = 0
     '''
     check user gitee id valid
@@ -65,25 +67,34 @@ def repo_member_valid_check(user, token):
     param = {'access_token': token}
     response = requests.get(user_url, params=param)
     if response.status_code != 200:
-        print(
-            "Get User {} information from gitee failed.".format(
-                user['giteeid']))
+        print("Get User {} information from gitee failed.".format(user['giteeid']))
         issue_found += 1
         return
     '''
     check user cla sign.
     '''
-    cla_url = CLA_API
     param = {'email': user['email']}
-    response = requests.get(user_url, params=param)
+    response = requests.get(CLA_API, params=param)
     if response.status_code != 200:
-        print("Get User{} cla info failed.".format(user['giteeid']))
+        print("Get User:{} cla info failed.".format(user['giteeid']))
         issue_found += 1
         return issue_found
-#    if not response.data.signed:
-#        print("User{} has not signed CLA.".format(user['giteeid']))
-#        issue_found += 1
 
+    jstr = json.loads(response.text)
+    if 'data' not in jstr.keys():
+        issue_found += 1
+        print("Json decode failed.")
+        return issue_found
+    data = jstr['data']
+
+    if 'signed' not in data.keys():
+        issue_found += 1
+        print("Json decode signed field failed.")
+        return issue_found
+    if not data['signed']:
+        print("User{} has not signed CLA.".format(user['giteeid']))
+        issue_found += 1
+    print(">>>>>>>>End user valid check, issue:{}.".format(issue_found))
     return issue_found
 
 
@@ -93,6 +104,7 @@ def member_check(team, token):
     :param tutorinfo:
     :return:
     '''
+    print(">>>>>>begin member check.")
     issue_found = 0
     membersinfo = team['members']
     for member in membersinfo:
@@ -101,7 +113,7 @@ def member_check(team, token):
         if 'email' not in member.keys():
             continue
         issue_found += repo_member_valid_check(member, token)
-
+    print(">>>>>>end member check, issue:{}.".format(issue_found))
     return issue_found
 
 
@@ -111,6 +123,7 @@ def tutor_check(team, token):
     :param tutorinfo:
     :return:
     '''
+    print(">>>>>>begin tutor check.")
     issue_found = 0
     tutorsinfo = team['tutor']
     for tutor in tutorsinfo:
@@ -119,7 +132,7 @@ def tutor_check(team, token):
         if 'email' not in tutor.keys():
             continue
         issue_found += repo_member_valid_check(tutor, token)
-
+    print(">>>>>>end tutor check, issue:{}.".format(issue_found))
     return issue_found
 
 
@@ -129,10 +142,12 @@ def teamid_valid_check(team, legalids):
     :param legalids: legal team ids
     :return:
     '''
+    print(">>>>>>begin teamid check.")
     issue_found = 0
     if team['teamid'] not in legalids:
         print("Team id:{} is not in legal team id list.", team['teamid'])
         issue_found += 1
+    print(">>>>>>end teamid check, issue:{}.".format(issue_found))
     return issue_found
 
 
@@ -142,9 +157,11 @@ def teamid_reused_check(teamids):
     :param teamids:
     :return:
     '''
+    print(">>>>Begin teamid reused check.")
     issue_found = 0
     if len(teamids) != len(set(teamids)):
         issue_found += 1
+    print(">>>>End teamid reused check, issue:{}.".format(issue_found))
     return issue_found
 
 def orgrepo_reused_check(repos):
@@ -153,9 +170,11 @@ def orgrepo_reused_check(repos):
     :param repos:repository name set
     :return:
     '''
+    print(">>>>Begin repo reused check.")
     issue_found = 0
     if len(repos) != len(set(repos)):
         issue_found += 1
+    print(">>>>End repo reused check, issue:{}.".format(issue_found))
     return issue_found
 
 
@@ -166,6 +185,7 @@ def validaty_check_teaminfo(teams, token, legalids):
     :param legalids: legal team ids list.
     :return: pass check return 0, else return issue count.
     '''
+    print(">>Begin teaminfo check.")
     issue_found = 0
 
     team_ids = []
@@ -184,7 +204,7 @@ def validaty_check_teaminfo(teams, token, legalids):
     '''
     issue_found += teamid_reused_check(team_ids)
     issue_found += orgrepo_reused_check(org_repos)
-
+    print(">>End teaminfo check, issue:{}.".format(issue_found))
     return issue_found
 
 
@@ -193,10 +213,12 @@ def validaty_check_version(version):
     :param version: configure file version, current version 1.0
     :return: version equal 1.0 return 0, else return 1
     '''
+    print(">>Begin version check.")
     issue_found = 0
     if version != 1.0:
         print("Version {} is not OK.".format(version))
         issue_found = 1
+    print(">>End version check, issue:{}".format(issue_found))
     return issue_found
 
 
@@ -205,6 +227,7 @@ def validaty_check_community(community, token):
     :param community: configure file community, current value: openeuler2020
     :return: community equal 'openeuler2020' return 0, else return 1
     '''
+    print(">>Begin community check.")
     issue_found = 0
     if community != 'openeuler2020':
         print("Community info{} is not correct.".format(community))
@@ -216,7 +239,7 @@ def validaty_check_community(community, token):
     if response.status_code != 200:
         print("Get organization {} information failed.".format(community))
         issue_found += 1
-
+    print(">>End community check, issue:{}.".format(issue_found))
     return issue_found
 
 
@@ -275,6 +298,7 @@ def main():
                                            legal_ids['legal_team_ids'])
 
     if issue_total != 0:
+        print("CI FAILED, issue count:{}".format(issue_total))
         sys.exit(issue_total)
 
     print("FINISH")
