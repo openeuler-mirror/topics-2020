@@ -13,3 +13,14 @@ teams:
   members:
   - giteeid: TommyLike
     email: tommylikehu@gmail.com
+- teamid: 888843645633
+  teamname: "小霸王"
+  description: "参赛题号：88 参赛队号：888843645633，参赛队名：小霸王"
+  repository: Xiaobawang
+  repotype: private
+  tutor:
+  - giteeid: georgecao
+    email: caozhi1214@qq.com
+  members:
+  - giteeid: TommyLike
+    email: tommylikehu@gmail.com
