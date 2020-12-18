@@ -28,6 +28,10 @@ THREE_COL_COMMENT = "<tr> <th>Item</th> <th>ID</th>  <th>Check Result</th> </tr>
 PASS = ":white_check_mark:PASS"
 FAIL = ":x:FAIL"
 
+
+def gen_repo_name(topicid, teamname):
+    return "{}-{}".format(topicid, teamname)
+
 def send_comment_checkret(pr, token, comment_data):
     table_head = '<table>'
     table_tail = '</table>'
@@ -142,16 +146,16 @@ def repo_comment(repos_info):
     if cnt == 0:
         return
     first_col = "<td rowspan={}>Repository check</td>".format(cnt)
-    user_comm = "<tr> {} <td>{}</td> <td>{}</td> </tr>"
+    reponame_comm = "<tr> {} <td>{}</td> <td>{}</td> </tr>"
     comment = ""
-    is_first = False
+    is_first = True
     for key in repos_info.keys():
         ret = PASS if repos_info[key] else FAIL
         if is_first:
-            comment += repos_info.format(first_col, key, ret)
-            is_first = True
+            comment += reponame_comm.format(first_col, key, ret)
+            is_first = False
         else:
-            comment += repos_info.format("", key, ret)
+            comment += reponame_comm.format("", key, ret)
     add_3col_comment_item(comment)
     return
 
@@ -211,8 +215,8 @@ def team_has_keyfield(team):
         return issue_found
     if 'description' not in team.keys():
         print("There is no team description, we will add it.")
-    if 'repository' not in team.keys() or len(team['repository']) == 0:
-        print("There is no repository name.")
+    if 'topicid' not in team.keys() :
+        print("There is no topic id in teaminfo.")
         issue_found += 1
         return issue_found
     if 'repotype' not in team.keys() or len(team['repotype']) == 0:
@@ -412,8 +416,8 @@ def validaty_check_teaminfo(teams, token, legalids):
         issue_found += (user_issue + cla_issue)
 
         team_ids.append(team['teamid'])
-        org_repos.append(team['repository'])
-        repo_info[team['repository']] = True
+        org_repos.append(gen_repo_name(team['topicid'], team['teamname']))
+        repo_info[gen_repo_name(team['topicid'], team['teamname'])] = True
     '''
     team id, name, repositories reused check
     '''
@@ -435,6 +439,7 @@ def validaty_check_teaminfo(teams, token, legalids):
     '''
     integrity_comment(integrity_issue == 0)
     teamid_comment(teamid_info)
+    repo_comment(repo_info)
     user_comment(user_info)
     cla_comment(cla_info)
     return issue_found

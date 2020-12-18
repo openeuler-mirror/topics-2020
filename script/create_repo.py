@@ -21,6 +21,14 @@ LOCAL_COMMUNITY = "openeuler-competition"
 LOCAL_REPO = "topics-2020"
 
 
+def gen_repo_name(topicid, teamname):
+    return "{}-{}".format(topicid, teamname)
+
+
+def gen_repo_path(teamid):
+    return "team-{}".format(teamid)
+
+
 def check_pr_valid(pr, invalid_labels, cfgtoken):
     '''
     get labels from pr and check if pr need to create repo
@@ -58,8 +66,7 @@ def add_repo_member(team, community, orgtoken):
     :param orgtoken:
     :return:
     '''
-    member_url = REPO_API + community + '/' + \
-        team['repository'] + '/collaborators/'
+    member_url = REPO_API + community + '/' + gen_repo_path(team['teamid']) + '/collaborators/'
     user = team['members'] + team['tutor']
     for member in user:
         user_url = member_url + member['giteeid']
@@ -69,7 +76,7 @@ def add_repo_member(team, community, orgtoken):
         if response.status_code != 200:
             print("Add repo member:{} to repo:{} failed, ret:{}.".format(
                     member['giteeid'],
-                    team['repository'],
+                    gen_repo_path(team['teamid']),
                     response.status_code))
             continue
     return
@@ -86,17 +93,17 @@ def create_team_repo(team, community, orgtoken):
 
     repo_url = ORG_API + community + '/repos'
     param = {'access_token': orgtoken,
-             'name': team['repository'],
+             'name': gen_repo_name(team['topicid'], team['teamname']),
              'description': team['description'],
              'has_issues': 'true',
              'has_wiki': 'true',
              'can_comment': 'true',
              'private': 'true' if team['repotype'] == 'private' else 'false',
-             'auto_init': 'true'}
+             'auto_init': 'true',
+             'path': gen_repo_path(team['teamid'])}
     response = requests.post(repo_url, params=param)
     if response.status_code != 201:
-        print(
-            "Create repo {} on gitee failed.".format(team['repository']))
+        print("Create repo {} on gitee failed.".format(gen_repo_path(team['topicid'], team['teamname'])))
         return False
 
     return True
@@ -128,7 +135,7 @@ def check_and_create_teamrepo(teams, community, orgtoken):
     :return:
     '''
     for team in teams:
-        repo_exist = check_repo_exist(team['repository'], community, orgtoken)
+        repo_exist = check_repo_exist(gen_repo_path(team['teamid']), community, orgtoken)
         if repo_exist:
             add_repo_member(team, community, orgtoken)
             continue
