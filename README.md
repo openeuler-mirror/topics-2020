@@ -19,12 +19,12 @@
 
 1. 首先Fork此 **openEuler-competition/topics-2020仓库** 
 
-![输入图片说明](https://uploader.shimo.im/f/FAlBc7fe6w80R7R8.png!thumbnail)
-![输入图片说明](https://uploader.shimo.im/f/Wr4fUvPWSri72yEl.png!thumbnail)
+![输入图片说明](https://oscimg.oschina.net/oscnet/up-37e9e9294410af79b655dac38803badb37b.png "在这里输入图片标题")
+![输入图片说明](https://oscimg.oschina.net/oscnet/up-fdd3dc3488848bd2a398eaac84ccf9b6cc3.png "在这里输入图片标题")
 
 2. Fork完毕，此时自动进入Fork之后的 **个人topics-2020仓库** 。你也可以点击右上角头像，进入个人主页进行查看。
 
-![输入图片说明](https://uploader.shimo.im/f/2cYdXLeqmirb8qjC.png!thumbnail "在这里输入图片标题")
+![输入图片说明](https://oscimg.oschina.net/oscnet/up-d5f565212177ef185605776804297221efc.png "在这里输入图片标题")
 
 3. 修改 **个人topics-2020仓库** 下的配置文件 TEAM_INFO/teaminfo.yaml ，在该文件中添加自己的团队信息。请务必严格按照要求填写，填写说明文档 TEAM_INFO/README.md
    - 点击“编辑”开始添加信息，请注意在后面添加即可，不要删除/修改已有的代码段
@@ -34,9 +34,9 @@
 
 4. 提交团队信息之后，新建一个PR，并提交此PR
 
-![输入图片说明](https://uploader.shimo.im/f/MJwCAUSfr3VDau8E.png!thumbnail)
-![输入图片说明](https://uploader.shimo.im/f/Nol1esiX4tiTjgeu.png!thumbnail)
-![输入图片说明](https://uploader.shimo.im/f/WD8Kfabul5W7LUZ7.png!thumbnail)
+![输入图片说明](https://oscimg.oschina.net/oscnet/up-4174f16ae41dcc1a9c040d336b76727c757.png "在这里输入图片标题")
+![输入图片说明](https://oscimg.oschina.net/oscnet/up-c2d27abf07f217a1c46bf84cd50e9b9fd36.png "在这里输入图片标题")
+![输入图片说明](https://oscimg.oschina.net/oscnet/up-2d953c55657a1e27284925d786295c6bac8.png "在这里输入图片标题")
 
 5. 提交PR之后，请等待仓库管理员统一审核，或者微信联系@OSC源创君加速审核。
 
