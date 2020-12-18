@@ -5,7 +5,8 @@
 
 <h1 id="teaminfo-格式规范">TEAMINFO 格式规范</h1>
 <h2 id="背景">背景</h2>
-<p>2020 openEuler 高校开发者大赛采用一个参赛团队一个代码仓库，分组提交参赛代码的方式。依托码云（gitee）良好的代码托管服务，我们组委会为大家申请了一个专门为本次大赛服务的竞赛组织 <a href="https://gitee.com/openeuler2020">openEuler2020</a>, 并计划在该组织下为各个参赛团队新建代码仓库和添加参赛者权限。我们会根据各位参赛者在本仓库的teaminfo.yaml中提交的仓库信息和团队成员信息来建仓和加权限。所以希望各位参赛者能完整、清晰地提交团队、参赛者、仓库、导师等信息。<br>
+<p>2020 openEuler 高校开发者大赛采用一个参赛团队一个代码仓库，分组提交参赛代码的方式。依托 Gitee 良好的代码托管服务，我们组委会为大家申请了一个专门为本次大赛服务的竞赛组织 <a href="https://gitee.com/openeuler2020">openEuler2020</a>, 并计划在该组织下为各个参赛团队新建代码仓库和添加参赛者权限。我们会根据各位参赛者在本仓库的teaminfo.yaml中提交的仓库信息和团队成员信息来建仓和加权限。请各位参赛者严格按照规范填写配置文件，以免影响正常建仓。<br>
+
 具体的配置文件信息说明请见下文。</p>
 <h2 id="格式说明">格式说明</h2>
 <p>大赛代码仓库的组织管理信息采用yaml格式文件记录承载，格式如下：</p>
@@ -40,7 +41,7 @@
 <td>各个参赛队的团队信息</td>
 </tr>
 </tbody>
-</table><p>其中teams清单中单个队伍的信息格式如下：</p>
+</table><p>其中只有teams清单需要参赛队员填写，格式如下：</p>
 
 <table>
 <thead>
@@ -54,22 +55,22 @@
 <tr>
 <td>teamid</td>
 <td>整型</td>
-<td>参赛队ID号，必填</td>
+<td>团队编号，必填</td>
 </tr>
 <tr>
 <td>teamname</td>
 <td>字符串</td>
-<td>参赛队名称，必填</td>
+<td>团队名称，必填。请注意：此字段只允许包含中文、字母、数字或者下划线(_)、中划线(-)、英文句号(.)、加号(+)，不能以下划线/中划线结尾，若团队名称中包含除上述之外的符号，请删除或用上述符号代替</td>
+</tr>
+<tr>
+<td>topicid</td>
+<td>整型</td>
+<td>赛题编号，必填</td>
 </tr>
 <tr>
 <td>description</td>
 <td>字符串</td>
-<td>参赛队详细信息描述，必填，需注明参赛赛题题号、队伍编号、团队名称</td>
-</tr>
-<tr>
-<td>repository</td>
-<td>字符串</td>
-<td>参赛队代码仓名称，必填</td>
+<td>团队信息描述，必填，需注明参赛赛题题号、队伍编号、团队名称</td>
 </tr>
 <tr>
 <td>repotype</td>
@@ -114,18 +115,18 @@
 version: 1.0
 giteeurl: https://gitee.com/openeuler2020
 teams:
-- teamid: 123324214343
-  teamname: "OSCHINA"
-  description: "赛题77，团队编号：0000，团队名称：OSCHINA"
-  repository: template
+- teamid: 123324214343 
+  teamname: "小霸王"
+  topicid: 88
+  description: "TOPIC_ID:88, TEAM_ID:123324214343, TEAM_NAME:小霸王."
   repotype: private
   tutor: 
-  - giteeid: biglizi
-    email: chenshuyu@oschina.cn
-  members:
-  - giteeid: leikeke
-    email: leikeke2@huawei.com
-  - giteeid: georgecao
+  - giteeid: georgecao 
     email: caozhi1214@qq.com
+  members:
+  - giteeid: TommyLike
+    email: tommylikehu@gmail.com
+  - giteeid: zhongjun2
+    email: 526521735@qq.com
 </code></pre>
 
