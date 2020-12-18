@@ -19,8 +19,8 @@
 
 1. 首先Fork此 **openEuler-competition/topics-2020仓库** 
 
-![输入图片说明](https://uploader.shimo.im/f/FAlBc7fe6w80R7R8.png!thumbnail "在这里输入图片标题")
-![输入图片说明](https://uploader.shimo.im/f/Wr4fUvPWSri72yEl.png!thumbnail "在这里输入图片标题")
+![输入图片说明](https://uploader.shimo.im/f/FAlBc7fe6w80R7R8.png!thumbnail)
+![输入图片说明](https://uploader.shimo.im/f/Wr4fUvPWSri72yEl.png!thumbnail)
 
 2. Fork完毕，此时自动进入Fork之后的 **个人topics-2020仓库** 。你也可以点击右上角头像，进入个人主页进行查看。
 
@@ -34,9 +34,9 @@
 
 4. 提交团队信息之后，新建一个PR，并提交此PR
 
-![输入图片说明](https://uploader.shimo.im/f/MJwCAUSfr3VDau8E.png!thumbnail "在这里输入图片标题")
-![输入图片说明](https://uploader.shimo.im/f/Nol1esiX4tiTjgeu.png!thumbnail "在这里输入图片标题")
-![输入图片说明](https://uploader.shimo.im/f/WD8Kfabul5W7LUZ7.png!thumbnail "在这里输入图片标题")
+![输入图片说明](https://uploader.shimo.im/f/MJwCAUSfr3VDau8E.png!thumbnail)
+![输入图片说明](https://uploader.shimo.im/f/Nol1esiX4tiTjgeu.png!thumbnail)
+![输入图片说明](https://uploader.shimo.im/f/WD8Kfabul5W7LUZ7.png!thumbnail)
 
 5. 提交PR之后，请等待仓库管理员统一审核，或者微信联系@OSC源创君加速审核。
 
