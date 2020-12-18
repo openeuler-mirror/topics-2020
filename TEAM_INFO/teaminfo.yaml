@@ -2,10 +2,10 @@ community: openeuler2020
 version: 1.0
 giteeurl: https://gitee.com/openeuler2020
 teams:
-- teamid: 123324214343
-  teamname: "TEST_TEAM"
-  description: "TOPIC_ID:88, TEAM_ID:123324214343, TEAM_NAME:TEST_TEAM."
-  repository: template
+- teamid: 123324214343 
+  teamname: "小霸王"
+  topicid: 88
+  description: "TOPIC_ID:88, TEAM_ID:123324214343, TEAM_NAME:小霸王."
   repotype: private
   tutor: 
   - giteeid: georgecao 
@@ -13,14 +13,5 @@ teams:
   members:
   - giteeid: TommyLike
     email: tommylikehu@gmail.com
-- teamid: 888843645633
-  teamname: "小霸王"
-  description: "参赛题号：88 参赛队号：888843645633，参赛队名：小霸王"
-  repository: Xiaobawang
-  repotype: private
-  tutor:
-  - giteeid: georgecao
-    email: caozhi1214@qq.com
-  members:
-  - giteeid: TommyLike
-    email: tommylikehu@gmail.com
+  - giteeid: zhongjun2
+    email: 526521735@qq.com
