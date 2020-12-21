@@ -1,31 +1,58 @@
 # 2020 openEuler高校开发者大赛
 
-#### 介绍
-2020 openEuler高校开发者大赛组织管理仓库
+### 仓库介绍
 
-#### 软件架构
+此仓库为2020 openEuler高校开发者大赛的组织管理仓库，用于成功晋级复赛的团队申请团队仓库，不用于提交代码。
+
+### 仓库架构
+
 仓库主要包括以下内容：
-1.  [参赛题目](https://gitee.com/openeuler-competition/topics-2020/tree/master/DOC)说明文档；
-2.  [参赛团队信息](https://gitee.com/openeuler-competition/topics-2020/tree/master/TEAM_INFO), 包括团队信息填写说明； 
 
-#### 使用说明
+1. 所有导师对其赛题的[解读文档](http://gitee.com/openeuler-competition/topics-2020/tree/master/DOC)
+2. [复赛团队信息](https://gitee.com/openeuler-competition/topics-2020/tree/master/TEAM_INFO)，包括申请团队仓库需要填写的配置文件、填写规范等
 
-1.  参赛团队的信息填写参考[说明文档](https://gitee.com/openeuler-competition/topics-2020/blob/master/TEAM_INFO/README.md)
-2.  相关信息了解可参见[大赛官网](https://www.oschina.net/2020-openeuler/)或[openEuler官网](https://openeuler.org/)
-3.  如有课题疑问请联系课题导师
+### 怎样申请团队仓库
 
-#### 参与贡献
+已晋级复赛的团队需要申请团队仓库，每团队一个，用于提交各自团队的代码。
 
-1.  在本仓库[TEAM_INFO/teaminfo.yaml](https://gitee.com/openeuler-competition/topics-2020/blob/master/TEAM_INFO/teaminfo.yaml)配置文件中添加修改参赛团队信息，具体填写要求请参考[TEAM_INFO/README.md](https://gitee.com/openeuler-competition/topics-2020/blob/master/TEAM_INFO/README.md)
-2.  修改内容提交PR并@本仓库管理员 @张珂 @biglizi @fengfeiyun 审核
-3.  待确认团队配置信息合入以后，移步到本次大赛组织[openEuler2020](https://gitee.com/openeuler2020)下
-4.  确认该组织下是否已建立好在步骤1中配置的仓库，如仓库未正常创建请在[本仓库](https://gitee.com/openeuler-competition/topics-2020)提交issue并 @georgecao，或直接联系课题导师；如果代码仓库已正常创建，继续步骤5
-5.  确认是否能正常进入仓库，并提交代码、合并代码，如操作受限，请在[本仓库](https://gitee.com/openeuler-competition/topics-2020)提交issue并 @biglizi，或直接联系课题导师；
+具体申请步骤如下：
 
-#### 一些注意事项
-1.  在提交代码前请确认完成openEuler社区CLA开发者贡献协议的[个人签署](https://clasign.osinfra.cn/sign/Z2l0ZWUlMkZvcGVuZXVsZXI=)；
-2.  由于大赛私有仓库的限制，每个仓库开发成员限5人，其中一名组委会成员，一名课题导师；所以只能有3位参赛队员同时在仓库提贡献交代码；如团队成员超过3人，其他队员也需要提交代码时，可以采用两种方式：
-a. 代码转由已经加入仓库成员的参赛队友提交
-b. 动态修改仓库成员名单，需要提交代码的参赛队友替换暂时不用提交代码的参赛队友gitee ID
+1. 首先Fork此 **openEuler-competition/topics-2020仓库** 
+
+![输入图片说明](https://oscimg.oschina.net/oscnet/up-37e9e9294410af79b655dac38803badb37b.png "在这里输入图片标题")
+![输入图片说明](https://oscimg.oschina.net/oscnet/up-fdd3dc3488848bd2a398eaac84ccf9b6cc3.png "在这里输入图片标题")
+
+2. Fork完毕，此时自动进入Fork之后的 **个人topics-2020仓库** 。你也可以点击右上角头像，进入个人主页进行查看。
+
+![输入图片说明](https://oscimg.oschina.net/oscnet/up-d5f565212177ef185605776804297221efc.png "在这里输入图片标题")
+
+3. 修改 **个人topics-2020仓库** 下的配置文件 TEAM_INFO/teaminfo.yaml ，在该文件中添加自己的团队信息。请务必严格按照要求填写，填写说明文档 TEAM_INFO/README.md
+   - 点击“编辑”开始添加信息，请注意在后面添加即可，不要删除/修改已有的代码段
+   - 添加完成之后，点击“提交”
+   - 注意缩进及英文标点符号
 
 
+4. 提交团队信息之后，新建一个PR，并提交此PR
+
+![输入图片说明](https://oscimg.oschina.net/oscnet/up-4174f16ae41dcc1a9c040d336b76727c757.png "在这里输入图片标题")
+![输入图片说明](https://oscimg.oschina.net/oscnet/up-c2d27abf07f217a1c46bf84cd50e9b9fd36.png "在这里输入图片标题")
+![输入图片说明](https://oscimg.oschina.net/oscnet/up-2d953c55657a1e27284925d786295c6bac8.png "在这里输入图片标题")
+
+5. 提交PR之后，请等待仓库管理员统一审核，或者微信联系@OSC源创君加速审核。
+
+6. PR审核一旦通过，系统会自动帮你建立仓库。访问本次大赛的代码仓库组织[openEuler2020](https://gitee.com/openeuler2020)，即可找到、查看、编辑你的团队仓库。请及时留意Gitee的系统通知。
+
+7. 至此，你的团队仓库申请流程已完成，可以愉快地提交代码啦！
+
+
+### 注意事项
+
+1. 请确认所有团队成员（包括指导老师）均已签署[openEuler社区CLA开发者贡献协议](https://clasign.osinfra.cn/sign/Z2l0ZWUlMkZvcGVuZXVsZXI=)，若有一位成员未签署，则无法申请团队仓库，无法进行代码提交。
+2. 请按照上述步骤申请团队仓库，若团队仓库未正常创建，或无法正常进入并进行提交/合并代码等操作，请在[openEuler-competition/topics-2020仓库](https://gitee.com/openeuler-competition/topics-2020)提交issue并@georgecao，或微信联系@OSC源创君
+3. 团队仓库最高可容纳10人，因此申请时请在配置文件中添加所有团队成员的信息，以免后续重新调整。
+
+### 相关链接
+
+- [2020 openEuler高校开发者大赛](https://www.oschina.net/2020-openeuler)
+- [openEuler官网](https://openeuler.org/zh/)
+- [OSCHINA社区](https://www.oschina.net/)
