@@ -3,15 +3,13 @@ version: 1.0
 giteeurl: https://gitee.com/openeuler2020
 teams:
 - teamid: 123324214343 
-  teamname: "小霸王"
+  teamname: "赛博朋克2077"
   topicid: 88
   description: "TOPIC_ID:88, TEAM_ID:123324214343, TEAM_NAME:小霸王."
   repotype: private
   tutor: 
-  - giteeid: georgecao 
-    email: caozhi1214@qq.com
+  - giteeid: normal-coder
+    email: normalcoder
   members:
-  - giteeid: TommyLike
-    email: tommylikehu@gmail.com
-  - giteeid: zhongjun2
-    email: 526521735@qq.com
+  - giteeid: normalcoder
+    email: normal@normalcoder.com
