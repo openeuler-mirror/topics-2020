@@ -35,7 +35,7 @@
 4. 提交团队信息之后，新建一个PR，并提交此PR
 
 ![输入图片说明](https://oscimg.oschina.net/oscnet/up-4174f16ae41dcc1a9c040d336b76727c757.png "在这里输入图片标题")
-![输入图片说明](https://oscimg.oschina.net/oscnet/up-c2d27abf07f217a1c46bf84cd50e9b9fd36.png "在这里输入图片标题")
+![输入图片说明](https://oscimg.oschina.net/oscnet/up-c8a201004ba3f1db58d32bcc7380f084dd1.png "在这里输入图片标题")
 ![输入图片说明](https://oscimg.oschina.net/oscnet/up-2d953c55657a1e27284925d786295c6bac8.png "在这里输入图片标题")
 
 5. 提交PR之后，请等待仓库管理员统一审核，或者微信联系@OSC源创君加速审核。
