@@ -949,17 +949,17 @@ teams:
 
 # 请团队编号为 1491717093 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1491717093
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+ - teamid: 1491717093
+   teamname: "国五大人"
+   topicid: 4  # 请将 topicid 修改为你的赛题ID
+   description: "TOPIC_ID:4, TEAM_ID:1491717093, TEAM_NAME:国五大人."
+   repotype: private
+   tutor:
+   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
+     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+   members:
+   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
 # ===============  End  ===============
 
 
