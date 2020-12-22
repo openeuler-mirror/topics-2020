@@ -298,8 +298,10 @@ def member_check(team, token, user_info, cla_info):
         if 'email' not in member.keys():
             continue
         user_issue, cla_issue = repo_member_valid_check(member, token)
-        user_info[member['giteeid']] = user_info[member['giteeid']] and (user_issue == 0)
-        cla_info[member['email']] = cla_info[member['email']] and (cla_issue == 0)
+        if user_issue != 0:
+            user_info[member['giteeid']] = False
+        if cla_issue != 0:
+            cla_info[member['email']] = False
     print(">>>>>>end member check, issue:{}.".format(user_issue + cla_issue))
     return user_issue, cla_issue
 
@@ -321,8 +323,10 @@ def tutor_check(team, token, user_info, cla_info):
         if 'email' not in tutor.keys():
             continue
         user_issue, cla_issue = repo_member_valid_check(tutor, token)
-        user_info[tutor['giteeid']] = user_info[tutor['giteeid']] and (user_issue == 0)
-        cla_info[tutor['email']] = cla_info[tutor['email']] and (cla_issue == 0)
+        if user_issue != 0:
+            user_info[tutor['giteeid']] = False
+        if cla_issue != 0:
+            cla_info[tutor['email']] = False
 
     print(">>>>>>end tutor check, issue:{}.".format(user_issue + cla_issue))
     return user_issue, cla_issue
@@ -406,7 +410,8 @@ def validaty_check_teaminfo(teams, token, legalids):
         issue_found += integrity_issue
 
         teamid_issue = teamid_valid_check(team, legalids)
-        teamid_info[team['teamid']] = teamid_info[team['teamid']] and (teamid_issue == 0)
+        if teamid_issue != 0:
+            teamid_info[team['teamid']] = False
         issue_found += teamid_issue
 
         user_issue, cla_issue = tutor_check(team, token, user_info, cla_info)
@@ -417,7 +422,6 @@ def validaty_check_teaminfo(teams, token, legalids):
 
         team_ids.append(team['teamid'])
         org_repos.append(gen_repo_name(team['topicid'], team['teamname']))
-        repo_info[gen_repo_name(team['topicid'], team['teamname'])] = True
     '''
     team id, name, repositories reused check
     '''
@@ -438,10 +442,23 @@ def validaty_check_teaminfo(teams, token, legalids):
     add comment
     '''
     integrity_comment(integrity_issue == 0)
+
+    if len(teamid_info) == 0:
+        teamid_info["ALL TEAM ID"] = True
     teamid_comment(teamid_info)
+
+    if len(repo_info) == 0:
+        repo_info["ALL REPO"] = True
     repo_comment(repo_info)
+
+    if len(user_info) == 0:
+        user_info["ALL GITEE ID"] = True
     user_comment(user_info)
+
+    if len(cla_info) == 0:
+        cla_info["ALL CLA INFO"] = True
     cla_comment(cla_info)
+
     return issue_found
 
 
