@@ -35,19 +35,19 @@ teams:
 
 # 请团队编号为 888843645633 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-- teamid: 888843645633
-  teamname: "openEuler Team"
-  topicid: 88  
-  description: "openEuler Team"
-  repotype: private
-  tutor:
-  - giteeid: georgecao
-    email: caozhi1214@qq.com
-  members:
-  - giteeid: normal-coder
-    email: normalcoder@qq.com
-  - giteeid: TommyLike
-    email: tommylikehu@gmail.com
+#- teamid: 888843645633
+#  teamname: "openEuler Team"
+#  topicid: 88  
+#  description: "openEuler Team"
+#  repotype: private
+#  tutor:
+#  - giteeid: georgecao
+#    email: caozhi1214@qq.com
+#  members:
+#  - giteeid: normal-coder
+#    email: normalcoder@qq.com
+#  - giteeid: TommyLike
+#    email: tommylikehu@gmail.com
 # ===============  End  ===============
 
 
@@ -951,15 +951,19 @@ teams:
 # =============== Start ===============
  - teamid: 1491717093
    teamname: "国五大人"
-   topicid: 4  # 请将 topicid 修改为你的赛题ID
+   topicid: 4  
    description: "TOPIC_ID:4, TEAM_ID:1491717093, TEAM_NAME:国五大人."
    repotype: private
    tutor:
-   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+   - giteeid: stardustspace       
+     email: dongfangming18@mails.ucas.ac.cn   
    members:
-   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+   - giteeid: stardustspace         
+     email: dongfangming18@mails.ucas.ac.cn
+   - giteeid: zonax         
+     email: 1455750388@qq.com
+   - giteeid: Zamonia         
+     email: 13591506625@163.com    
 # ===============  End  ===============
 
 
