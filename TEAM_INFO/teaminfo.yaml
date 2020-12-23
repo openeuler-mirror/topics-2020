@@ -1794,22 +1794,19 @@ teams:
 #     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
 # ===============  End  ===============
 
-
-# 请团队编号为 1965759045 的团队取消本段内容注释，并填写相关信息
-# =============== Start ===============
-# - teamid: 1965759045
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
-# ===============  End  ===============
-
+- teamid: 1965759045
+  teamname: "Async-Studio"
+  topicid: 37
+  description: "TOPIC_ID:37, TEAM_ID:1965759045, TEAM_NAME:Async-Studio."
+  repotype: private
+  tutor:
+  - giteeid: Dave110
+    email: zhouqiang@kylinos.com.cn
+  members:
+  - giteeid: yiyaowen
+    email: wenyiyao19@mails.ucas.ac.cn
+  - giteeid: bobtony
+    email: 836333496@qq.com
 
 # 请团队编号为 1068783999 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
