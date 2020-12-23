@@ -805,23 +805,23 @@ teams:
 
 # 请团队编号为 1379579432 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
- - teamid: 1379579432
-   teamname: "烛龙"
-   topicid: 34
-   description: "队名太奇怪了"
-   repotype: private
-   tutor:
-   - giteeid: sugarfillet
-     email: song_shuaishuai@hoperun.com
-   members:
-   - giteeid: DT9025A
-     email: dt9025a@163.com
-   - giteeid: joyden
-     email: joyden000@foxmail.com
-   - giteeid: wang-ziang
-     email: 1255756821@qq.com
-   - giteeid: wu-congyao
-     email: 1172870167@qq.com
+- teamid: 1379579432
+  teamname: "烛龙"
+  topicid: 34
+  description: "怎么改队名啊,烛龙这个队名太奇怪了"
+  repotype: private
+  tutor:
+  - giteeid: sugarfillet
+    email: song_shuaishuai@hoperun.com
+  members:
+  - giteeid: DT9025A
+    email: dt9025a@163.com
+  - giteeid: joyden
+    email: joyden000@foxmail.com
+  - giteeid: wang-ziang
+    email: 1255756821@qq.com
+  - giteeid: wu-congyao
+    email: 1172870167@qq.com
 # ===============  End  ===============
 
 
