@@ -15,8 +15,6 @@ teams:
   - giteeid: TommyLike
     email: tommylikehu@gmail.com
 # Please add team info from here.
-
-teams:
 # 请团队编号为 123324214343 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
 # - teamid: 123324214343
@@ -1635,17 +1633,17 @@ teams:
 
 # 请团队编号为 1124576305 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1124576305
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1124576305
+  teamname: "Admin"
+  topicid: 44  # 请将 topicid 修改为你的赛题ID
+  description: "稻香村村民"
+  repotype: private
+  tutor:
+  - giteeid: jingxiaolu       # 请在此填写团队导师的 Gitee 帐号
+    email: lujingxiao@huawei.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+  members:
+  - giteeid: waterbang         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: 409071692@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
 # ===============  End  ===============
 
 
@@ -1683,17 +1681,17 @@ teams:
 
 # 请团队编号为 1435208390 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
- - teamid: 1435208390
-   teamname: "SocialAni"
-   topicid: 7
-   description: "TOPIC_ID:7, TEAM_ID:1435208390, TEAM_NAME:SocialAni"
-   repotype: private
-   tutor:
-   - giteeid: liqingqing_1229       # 请在此填写团队导师的 Gitee 帐号
-     email: liqingqing3@huawei.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-   members:
-   - giteeid: RkingKoyo         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-     email: ying_register@163.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1435208390
+  teamname: "SocialAni"
+  topicid: 7
+  description: "TOPIC_ID:7, TEAM_ID:1435208390, TEAM_NAME:SocialAni"
+  repotype: private
+  tutor:
+  - giteeid: liqingqing_1229       # 请在此填写团队导师的 Gitee 帐号
+    email: liqingqing3@huawei.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+  members:
+  - giteeid: RkingKoyo         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: ying_register@163.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
 # ===============  End  ===============
 
 
