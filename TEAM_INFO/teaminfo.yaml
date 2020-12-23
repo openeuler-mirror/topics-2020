@@ -80,6 +80,8 @@ teams:
   members:
   - giteeid: l19120386         # 请在此填写指导老师或参赛选手的 Gitee 帐号
     email: 19120386@bjtu.edu.cn     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+  - giteeid: UnicornXPY         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: xdanwa@126.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
 # ===============  End  ===============
 
 
