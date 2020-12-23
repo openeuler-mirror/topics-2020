@@ -35,35 +35,35 @@ teams:
 
 # 请团队编号为 888843645633 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-- teamid: 888843645633
-  teamname: "openEuler Team"
-  topicid: 88  
-  description: "openEuler Team"
-  repotype: private
-  tutor:
-  - giteeid: georgecao
-    email: caozhi1214@qq.com
-  members:
-  - giteeid: normal-coder
-    email: normalcoder@qq.com
-  - giteeid: TommyLike
-    email: tommylikehu@gmail.com
+#- teamid: 888843645633
+#  teamname: "openEuler Team"
+#  topicid: 88  
+#  description: "openEuler Team"
+#  repotype: private
+#  tutor:
+#  - giteeid: georgecao
+#    email: caozhi1214@qq.com
+#  members:
+#  - giteeid: normal-coder
+#    email: normalcoder@qq.com
+#  - giteeid: TommyLike
+#    email: tommylikehu@gmail.com
 # ===============  End  ===============
 
 
 # 请团队编号为 875453534224 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-- teamid: 875453534224
-  teamname: "openEuler Best Team"
-  topicid: 88  # 请将 topicid 修改为你的赛题ID
-  description: "这是诺墨同学的 openEuler 战队"
-  repotype: private
-  tutor:
-  - giteeid: georgecao       # 请在此填写团队导师的 Gitee 帐号
-    email: caozhi1214@qq.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-  members:
-  - giteeid: normal-coder         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-    email: normalcoder@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱  
+#- teamid: 875453534224
+#  teamname: "openEuler Best Team"
+#  topicid: 88  # 请将 topicid 修改为你的赛题ID
+#  description: "这是诺墨同学的 openEuler 战队"
+#  repotype: private
+#  tutor:
+#  - giteeid: georgecao       # 请在此填写团队导师的 Gitee 帐号
+#    email: caozhi1214@qq.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+#  members:
+#  - giteeid: normal-coder         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+#    email: normalcoder@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱  
 # ===============  End  ===============
 
 
@@ -1683,17 +1683,17 @@ teams:
 
 # 请团队编号为 1435208390 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1435208390
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+ - teamid: 1435208390
+   teamname: "SocialAni"
+   topicid: 7
+   description: "TOPIC_ID:7, TEAM_ID:1435208390, TEAM_NAME:SocialAni"
+   repotype: private
+   tutor:
+   - giteeid: liqingqing_1229       # 请在此填写团队导师的 Gitee 帐号
+     email: liqingqing3@huawei.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+   members:
+   - giteeid: RkingKoyo         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+     email: ying_register@163.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
 # ===============  End  ===============
 
 
