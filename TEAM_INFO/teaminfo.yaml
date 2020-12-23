@@ -955,8 +955,8 @@ teams:
    description: "TOPIC_ID:4, TEAM_ID:1491717093, TEAM_NAME:国五大人."
    repotype: private
    tutor:
-   - giteeid: stardustspace       
-     email: dongfangming18@mails.ucas.ac.cn   
+   - giteeid: liliang_euler       
+     email: liliang6@me.com   
    members:
    - giteeid: stardustspace         
      email: dongfangming18@mails.ucas.ac.cn
