@@ -71,19 +71,21 @@ teams:
 # =============== Start ===============
 - teamid: 1243952768
   teamname: "蝴蝶队"
-  topicid: 13  # 请将 topicid 修改为你的赛题ID
+  topicid: 13  
   description: "TOPIC_ID:13, TEAM_ID:1243952768, TEAM_NAME:蝴蝶队."
   repotype: private
   tutor:
-  - giteeid: minknov       # 请在此填写团队导师的 Gitee 帐号
-    email: deng_guangxing@126.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+  - giteeid: minknov       
+    email: deng_guangxing@126.com  
   members:
-  - giteeid: l19120386         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-    email: 19120386@bjtu.edu.cn     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
-  - giteeid: UnicornXPY         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-    email: xdanwa@126.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
-  - giteeid: wzq-tdd         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-    email: 987059415@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+  - giteeid: l19120386         
+    email: 19120386@bjtu.edu.cn    
+  - giteeid: UnicornXPY         
+    email: xdanwa@126.com     
+  - giteeid: wzq-tdd         
+    email: 987059415@qq.com     
+  - giteeid: Catninet        
+    email: 2669534741@qq.com    
 # ===============  End  ===============
 
 
