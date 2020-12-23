@@ -551,23 +551,23 @@ teams:
 # =============== Start ===============
 # - teamid: 1641286244
 #   teamname: "西电OSMaker"
-#   topicid: 47  # 请将 topicid 修改为你的赛题ID
+#   topicid: 47
 #   description: "TOPIC_ID:47, TEAM_ID:1641286244, TEAM_NAME:西电OSMaker."
 #   repotype: private
 #   tutor:
-#   - giteeid: jing-rui       # 请在此填写团队导师的 Gitee 帐号
-#     email: jingrui@huawei.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+#   - giteeid: jing-rui
+#     email: jingrui@huawei.com
 #   members:
-#   - giteeid: osmaker         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: funfind@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
-#   - giteeid: ym_c         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: 842674698@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
-#   - giteeid: Ordi_P         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: steve_Pan@outlook.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
-#   - giteeid: BenjaminWillard         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: 1332219078@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
-#   - giteeid: JJ_King         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: 1484838928@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+#   - giteeid: osmaker      
+#     email: funfind@qq.com   
+#   - giteeid: ym_c
+#     email: 842674698@qq.com
+#   - giteeid: Ordi_P
+#     email: steve_Pan@outlook.com
+#   - giteeid: BenjaminWillard
+#     email: 1332219078@qq.com
+#   - giteeid: JJ_King
+#     email: 1484838928@qq.com
 # ===============  End  ===============
 
 
