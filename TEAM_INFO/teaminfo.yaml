@@ -243,19 +243,19 @@ teams:
 # ===============  End  ===============
 
 
-# 请团队编号为 1729948753 的团队取消本段内容注释，并填写相关信息
+#请团队编号为 1729948753 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1729948753
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+ - teamid: 1729948753
+   teamname: "3d小队"
+   topicid: 16  
+   description: "teamid:1729948753，teamname:3d小队，topicid:16"
+   repotype: private
+   tutor:
+   - giteeid: zhangsanfeng     
+     email: 254030462@qq.com
+   members:
+   - giteeid: Lizezhou1024
+     email: 969592931@qq.com    
 # ===============  End  ===============
 
 
