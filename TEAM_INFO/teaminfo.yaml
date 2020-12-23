@@ -72,7 +72,7 @@ teams:
 - teamid: 1243952768
   teamname: "蝴蝶队"
   topicid: 13  # 请将 topicid 修改为你的赛题ID
-  description: "这是北京交通大学的蝴蝶队"
+  description: "TOPIC_ID:13, TEAM_ID:1243952768, TEAM_NAME:蝴蝶队."
   repotype: private
   tutor:
   - giteeid: minknov       # 请在此填写团队导师的 Gitee 帐号
