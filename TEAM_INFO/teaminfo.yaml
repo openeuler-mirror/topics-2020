@@ -2091,10 +2091,10 @@ teams:
    description: "双面煎饼"
    repotype: private
    tutor:
- - giteeid: corrie-he      
+   - giteeid: corrie-he      
      email: 805443619@qq.com  
    members:
- - giteeid: chouchourua        
+   - giteeid: chouchourua        
      email: 920646878@qq.com   
 # ===============  End  ===============
 
