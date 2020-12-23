@@ -656,6 +656,8 @@ teams:
   members:
   - giteeid: great-meow          # 请在此填写指导老师或参赛选手的 Gitee 帐号
     email: 1252730674@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+  - giteeid: kitten_i          # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: 2759723679@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
 # ===============  End  ===============
 
 
