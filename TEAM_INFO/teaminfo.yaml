@@ -709,10 +709,10 @@ teams:
 
 # 请团队编号为 1278455115 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
- - teamid: 1278455115
-   teamname: "KT112"
-   topicid: 34  # 请将 topicid 修改为你的赛题ID
-   description: "壮志空天，激情人生"
+- teamid: 1278455115
+  teamname: "KT112"
+  topicid: 34  # 请将 topicid 修改为你的赛题ID
+  description: "壮志空天，激情人生"
   repotype: private
   tutor:
   - giteeid: sugarfillet       # 请在此填写团队导师的 Gitee 帐号
