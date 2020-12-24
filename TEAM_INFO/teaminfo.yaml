@@ -67,17 +67,25 @@ teams:
 
 # 请团队编号为 1243952768 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1243952768
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1243952768
+  teamname: "蝴蝶队"
+  topicid: 13  
+  description: "TOPIC_ID:13, TEAM_ID:1243952768, TEAM_NAME:蝴蝶队."
+  repotype: private
+  tutor:
+  - giteeid: minknov       
+    email: deng_guangxing@126.com  
+  members:
+  - giteeid: l19120386         
+    email: 19120386@bjtu.edu.cn    
+  - giteeid: UnicornXPY         
+    email: xdanwa@126.com     
+  - giteeid: wzq-tdd         
+    email: 987059415@qq.com     
+  - giteeid: Catninet        
+    email: 2669534741@qq.com
+  - giteeid: guozhuozhuo        
+    email: 1326574475@qq.com    
 # ===============  End  ===============
 
 
@@ -548,16 +556,24 @@ teams:
 # 请团队编号为 1641286244 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
 # - teamid: 1641286244
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
+#   teamname: "西电OSMaker"
+#   topicid: 47
+#   description: "TOPIC_ID:47, TEAM_ID:1641286244, TEAM_NAME:西电OSMaker."
 #   repotype: private
 #   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+#   - giteeid: jing-rui
+#     email: jingrui@huawei.com
 #   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+#   - giteeid: osmaker      
+#     email: funfind@qq.com   
+#   - giteeid: ym_c
+#     email: 842674698@qq.com
+#   - giteeid: Ordi_P
+#     email: steve_Pan@outlook.com
+#   - giteeid: BenjaminWillard
+#     email: 1332219078@qq.com
+#   - giteeid: JJ_King
+#     email: 1484838928@qq.com
 # ===============  End  ===============
 
 
@@ -643,17 +659,19 @@ teams:
 
 # 请团队编号为 1170058349 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1170058349
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1170058349
+  teamname: "黑玫瑰将再次绽放"
+  topicid: 61  # 请将 topicid 修改为你的赛题ID
+  description: "永远年轻，永远值得期待！"
+  repotype: private
+  tutor:
+  - giteeid: tushengxia       # 请在此填写团队导师的 Gitee 帐号
+    email: tushengxia@qq.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+  members:
+  - giteeid: great-meow          # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: 1252730674@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+  - giteeid: kitten_i          # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: 2759723679@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
 # ===============  End  ===============
 
 
