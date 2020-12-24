@@ -738,17 +738,21 @@ teams:
 
 # 请团队编号为 1278455115 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1278455115
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1278455115
+  teamname: "KT112"
+  topicid: 34  # 请将 topicid 修改为你的赛题ID
+  description: "壮志空天，激情人生"
+  repotype: private
+  tutor:
+  - giteeid: sugarfillet       # 请在此填写团队导师的 Gitee 帐号
+    email: song_shuaishuai@hoperun.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+  members:
+  - giteeid: voyagerhui         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: voyagerhui@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+  - giteeid: cui-long-hmm         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: 857643425@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+  - giteeid: foreverwh         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: 982751349@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
 # ===============  End  ===============
 
 
