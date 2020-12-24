@@ -2073,17 +2073,17 @@ teams:
 
 # 请团队编号为 1554136117 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
- - teamid: 1554136117
-   teamname: "onlyOne"
-   topicid: 70
-   description: "你写代码，我写bug"
-   repotype: private
-   tutor:
-   - giteeid: rita_dong
-     email: rita_dong@isrc.iscas.ac.cn
-   members:
-   - giteeid: huangzijian888
-     email: huangzijian888@gmail.com
+- teamid: 1554136117
+  teamname: "onlyOne"
+  topicid: 70
+  description: "你写代码，我写bug"
+  repotype: private
+  tutor:
+  - giteeid: rita_dong
+    email: rita_dong@isrc.iscas.ac.cn
+  members:
+  - giteeid: huangzijian888
+    email: huangzijian888@gmail.com
 # ===============  End  ===============
 
 
