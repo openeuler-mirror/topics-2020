@@ -470,7 +470,7 @@ teams:
 # 请团队编号为 1520159966 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
 - teamid: 1520159966
-teamname: "Euler"
+  teamname: "Euler"
   topicid: 64  
   description: "Euler Team"
   repotype: private
