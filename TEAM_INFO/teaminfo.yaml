@@ -374,7 +374,7 @@ teams:
 - teamid: 1695367338
   teamname: "Admin_nn"
   topicid: 17  # 请将 topicid 修改为你的赛题ID
-  description: "一个菜鸡"
+  description: "hi"
   repotype: private
   tutor:
   - giteeid: riskiest       # 请在此填写团队导师的 Gitee 帐号
