@@ -357,10 +357,10 @@ teams:
 
 # 请团队编号为 1504200213 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
- - teamid: 1504200213
+- teamid: 1504200213
    teamname: "igst-sjtu"
    topicid: 17  # 请将 topicid 修改为你的赛题ID
-   description: 没有介绍
+   description: "igst-sjtu 17 大吉大利今晚吃鸡"
    repotype: private
    tutor:
    - giteeid: riskiest       # 请在此填写团队导师的 Gitee 帐号
