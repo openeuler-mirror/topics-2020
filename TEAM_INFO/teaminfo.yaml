@@ -347,17 +347,20 @@ teams:
 
 # 请团队编号为 1366855413 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1366855413
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1366855413
+  teamname: ottoman
+  topicid: 17
+  description: 北理工光电学院
+  repotype: private
+  tutor:
+  - giteeid: riskiest       # 请在此填写团队导师的 Gitee 帐号
+    email: 254030462@qq.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+  members:
+  - giteeid: suyunzzz         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: suyun_zheng@163.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+  - giteeid: Chenchenglin         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: roronoa_zoro_1@163.com      # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱    
+
 # ===============  End  ===============
 
 
@@ -1824,22 +1827,19 @@ teams:
 #     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
 # ===============  End  ===============
 
-
-# 请团队编号为 1965759045 的团队取消本段内容注释，并填写相关信息
-# =============== Start ===============
-# - teamid: 1965759045
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
-# ===============  End  ===============
-
+- teamid: 1965759045
+  teamname: "Async-Studio"
+  topicid: 37
+  description: "TOPIC_ID:37, TEAM_ID:1965759045, TEAM_NAME:Async-Studio."
+  repotype: private
+  tutor:
+  - giteeid: Dave110
+    email: zhouqiang@kylinos.com.cn
+  members:
+  - giteeid: yiyaowen
+    email: wenyiyao_fort@163.com
+  - giteeid: bobtony
+    email: 836333496@qq.com
 
 # 请团队编号为 1068783999 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
@@ -2115,17 +2115,25 @@ teams:
 
 # 请团队编号为 1577420386 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1577420386
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1577420386
+  teamname: "耗子尾汁"
+  topicid: 28  
+  description: "双面煎饼"
+  repotype: private
+  tutor:
+  - giteeid: pwang7      
+    email: nicolas.weeks@gmail.com  
+  members:
+  - giteeid: corrie-he         
+    email:  805443619@qq.com  
+  - giteeid: liu-longxiang         
+    email:  1196081575@qq.com 
+  - giteeid: chouchourua        
+    email:  920646878@qq.com
+  - giteeid: zhang-yunxia        
+    email:  1196271653@qq.com
+    
+
 # ===============  End  ===============
 
 
