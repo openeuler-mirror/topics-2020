@@ -550,16 +550,24 @@ teams:
 # 请团队编号为 1641286244 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
 # - teamid: 1641286244
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
+#   teamname: "西电OSMaker"
+#   topicid: 47
+#   description: "TOPIC_ID:47, TEAM_ID:1641286244, TEAM_NAME:西电OSMaker."
 #   repotype: private
 #   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+#   - giteeid: jing-rui
+#     email: jingrui@huawei.com
 #   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+#   - giteeid: osmaker      
+#     email: funfind@qq.com   
+#   - giteeid: ym_c
+#     email: 842674698@qq.com
+#   - giteeid: Ordi_P
+#     email: steve_Pan@outlook.com
+#   - giteeid: BenjaminWillard
+#     email: 1332219078@qq.com
+#   - giteeid: JJ_King
+#     email: 1484838928@qq.com
 # ===============  End  ===============
 
 
