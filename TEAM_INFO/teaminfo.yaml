@@ -646,17 +646,19 @@ teams:
 
 # 请团队编号为 1027856491 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1027856491
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1027856491
+  teamname: "浑元形意太极拳掌门人"
+  topicid: 61
+  description: "题号：61 队伍编号：1027856491 队伍名称：浑元形意太极拳掌门人 描述：芜湖~起飞，我黑切呢？我黑切去哪里了呀？"
+  repotype: private
+  tutor:
+  - giteeid: tushengxia
+    email: tushengxia@qq.com
+  members:
+  - giteeid: enttt5tt        
+    email: 495933166@qq.com     
+  - giteeid: Amadeus     
+    email: 1406486531@qq.com   
 # ===============  End  ===============
 
 
