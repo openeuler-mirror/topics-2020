@@ -1770,6 +1770,8 @@ teams:
   description: "SynX-Z"
   repotype: private
   tutor:
+  - giteeid: xiang_zh
+    email: zhangx@uestc.edu.cn
   - giteeid: liqingqing_1229      
     email: liqingqing3@huawei.com
   members:
