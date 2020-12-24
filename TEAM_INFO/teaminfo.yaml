@@ -773,7 +773,7 @@ teams:
 - teamid: 1903410490
   teamname: "default"
   topicid: 34  # 请将 topicid 修改为你的赛题ID
-  description: "就这样吧"
+  description: "TOPIC_ID:34, TEAM_ID:1903410490, TEAM_NAME:default."
   repotype: private
   tutor:
   - giteeid: sugarfillet       # 请在此填写团队导师的 Gitee 帐号
