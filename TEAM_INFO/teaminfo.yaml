@@ -1573,9 +1573,9 @@ teams:
 # 请团队编号为 1996338335 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
 # - teamid: 1996338335
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
+#   teamname: "NBJL挤牙膏大师"
+#   topicid: 14  # 请将 topicid 修改为你的赛题ID
+#   description: "TOPIC_ID:14, TEAM_ID:1996338335, TEAM_NAME:NBJL挤牙膏大师."
 #   repotype: private
 #   tutor:
 #   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
