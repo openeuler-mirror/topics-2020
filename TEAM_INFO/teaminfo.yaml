@@ -2085,21 +2085,21 @@ teams:
 
 # 请团队编号为 1577420386 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
- - teamid: 1577420386
-   teamname: "耗子尾汁"
-   topicid: 28  
-   description: "双面煎饼"
-   repotype: private
-   tutor:
-   - giteeid: pwang7      
-     email: nicolas.weeks@qmail.com  
-   members:
-   - giteeid: corrie-he         
-     email:  805443619@qq.com  
-   - giteeid: liu-longxiang         
-     email:  1196081575@qq.com 
-   - giteeid: chouchourua        
-     email:  920646878@qq.com
+- teamid: 1577420386
+  teamname: "耗子尾汁"
+  topicid: 28  
+  description: "双面煎饼"
+  repotype: private
+  tutor:
+  - giteeid: pwang7      
+    email: nicolas.weeks@qmail.com  
+  members:
+  - giteeid: corrie-he         
+    email:  805443619@qq.com  
+  - giteeid: liu-longxiang         
+    email:  1196081575@qq.com 
+  - giteeid: chouchourua        
+    email:  920646878@qq.com
 
 # ===============  End  ===============
 
