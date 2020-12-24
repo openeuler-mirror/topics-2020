@@ -958,6 +958,8 @@ teams:
    - giteeid: liliang_euler       
      email: liliang6@me.com   
    members:
+   - giteeid: zhengchen87         
+     email: zhengchen@iscas.ac.cn
    - giteeid: stardustspace         
      email: dongfangming18@mails.ucas.ac.cn
    - giteeid: zonax         
