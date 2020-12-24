@@ -602,23 +602,23 @@ teams:
 
 # 请团队编号为 1948717306 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1948717306
-#   teamname: "济宁医学院openEuler开源团队"
-#   topicid: 47  # 请将 topicid 修改为你的赛题ID
-#   description: "我们一起为openEuler开源社区贡献code！"
-#   repotype: private
-#   tutor:
-#   - giteeid: jing-rui       # 请在此填写团队导师的 Gitee 帐号
-#     email: jingrui@huawei.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: wx_182e75e273         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: gejingjun2000@126.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
-#   - giteeid: striver619            # 参赛选手的 Gitee 帐号
-#     email: 17852657226@163.com     # 参赛选手的 Gitee 帐号绑定的邮箱
-#   - giteeid: niuyaru               # 参赛选手的 Gitee 帐号
-#     email: 2259617883@qq.com       # 参赛选手的 Gitee 帐号绑定的邮箱
-#   - giteeid: wangqihao_code        # 参赛选手的 Gitee 帐号
-#     email: 770721120@qq.com        # 参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1948717306
+  teamname: "济宁医学院openEuler开源团队"
+  topicid: 47  # 请将 topicid 修改为你的赛题ID
+  description: "我们一起为openEuler开源社区贡献code！"
+  repotype: private
+  tutor:
+  - giteeid: jing-rui       # 请在此填写团队导师的 Gitee 帐号
+    email: jingrui@huawei.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+  members:
+  - giteeid: wx_182e75e273         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: gejingjun2000@126.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+  - giteeid: striver619            # 参赛选手的 Gitee 帐号
+    email: 17852657226@163.com     # 参赛选手的 Gitee 帐号绑定的邮箱
+  - giteeid: niuyaru               # 参赛选手的 Gitee 帐号
+    email: 2259617883@qq.com       # 参赛选手的 Gitee 帐号绑定的邮箱
+  - giteeid: wangqihao_code        # 参赛选手的 Gitee 帐号
+    email: 770721120@qq.com        # 参赛选手的 Gitee 帐号绑定的邮箱
 # ===============  End  ===============
 
 
