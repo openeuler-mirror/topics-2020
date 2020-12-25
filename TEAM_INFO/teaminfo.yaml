@@ -963,17 +963,19 @@ teams:
 
 # 请团队编号为 1277713097 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1277713097
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1277713097
+  teamname: "CodeBoys"
+  topicid: 4  # 请将 topicid 修改为你的赛题ID
+  description: "TOPIC_ID:4, TEAM_ID:1277713097, TEAM_NAME:CodeBoys."
+  repotype: private
+  tutor:
+  - giteeid: liliang_euler       # 请在此填写团队导师的 Gitee 帐号
+    email: liliang6@me.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+  members:
+  - giteeid: whileskies         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: gt110@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+  - giteeid: iszzq         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: 1032505101@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱箱
 # ===============  End  ===============
 
 
