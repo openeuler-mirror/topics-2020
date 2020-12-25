@@ -123,25 +123,25 @@ teams:
 
 # 请团队编号为 1473826747 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
- - teamid: 1473826747
-   teamname: "win300"
-   topicid: 35  # 请将 topicid 修改为你的赛题ID
-   description: "TOPIC_ID:35, TEAM_ID:1473826747, TEAM_NAME:win300."
-   repotype: private
-   tutor:
-   - giteeid: zhouwjfi       # 请在此填写团队导师的 Gitee 帐号
-     email: zhouwjfi@163.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-   members:
-   - giteeid: ss9701         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-     email: 465124170@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
-   - giteeid: catriozz        # 请在此填写指导老师或参赛选手的 Gitee 帐号
-     email: lucklypeach@163.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
-   - giteeid: ferenas        # 请在此填写指导老师或参赛选手的 Gitee 帐号
-     email: 809428184@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
-   - giteeid: daweisjtu        # 请在此填写指导老师或参赛选手的 Gitee 帐号
-     email: daweisjtu@sjtu.edu.cn     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
-   - giteeid: liang-haiyan        # 请在此填写指导老师或参赛选手的 Gitee 帐号
-     email: 220201712@seu.edu.cn     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1473826747
+  teamname: "win300"
+  topicid: 35  # 请将 topicid 修改为你的赛题ID
+  description: "TOPIC_ID:35, TEAM_ID:1473826747, TEAM_NAME:win300."
+  repotype: private
+  tutor:
+  - giteeid: zhouwjfi       # 请在此填写团队导师的 Gitee 帐号
+    email: zhouwjfi@163.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+  members:
+  - giteeid: ss9701         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: 465124170@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+  - giteeid: catriozz        # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: lucklypeach@163.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+  - giteeid: ferenas        # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: 809428184@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+  - giteeid: daweisjtu        # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: daweisjtu@sjtu.edu.cn     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+  - giteeid: liang-haiyan        # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: 220201712@seu.edu.cn     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
 # ===============  End  ===============
 
 
