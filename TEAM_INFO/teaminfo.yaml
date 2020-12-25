@@ -791,7 +791,7 @@ teams:
   topicid: 34
   description: "TOPIC_ID:34, TEAM_ID:1271280343, TEAM_NAME:芜湖起飞！."
   repotype: private
-   tutor: 
+  tutor: 
   - giteeid: sugarfillet
     email: song_shuaishuai
   members:
