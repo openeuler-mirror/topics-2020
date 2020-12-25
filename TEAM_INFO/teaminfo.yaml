@@ -821,17 +821,17 @@ teams:
 
 # 请团队编号为 1230110694 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
- - teamid: 1230110694
-   teamname: "菜鸟扎堆"
-   topicid: 34  # 请将 topicid 修改为你的赛题ID
-   description: "这是一个笨鸟先飞 openEuler 战队"
-   repotype: private
-   tutor:
-   - giteeid: sugarfillet        # 请在此填写团队导师的 Gitee 帐号
-     email: song_shuaishuai@hoperun.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-   members:
-   - giteeid: jiang-xinyun       # 请在此填写指导老师或参赛选手的 Gitee 帐号
-     email: 1327411716@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1230110694 
+  teamname: "菜鸟扎堆"
+  topicid: 34
+  description: "这是一个笨鸟先飞 openEuler 战队"
+  repotype: private
+  tutor: 
+  - giteeid: sugarfillet
+    email: song_shuaishuai@hoperun.com
+  members:
+  - giteeid: jiang-xinyun
+    email: 1327411716@qq.com
 # ===============  End  ===============
 
 
