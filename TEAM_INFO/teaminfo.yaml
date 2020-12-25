@@ -260,25 +260,25 @@ teams:
 
 #请团队编号为 1729948753 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-  - teamid: 1729948753
-    teamname: "3d小队"
-    topicid: 16  
-    description: "teamid:1729948753，teamname:3d小队，topicid:16"
-    repotype: private
-    tutor:
-    - giteeid: riskiest   
-      email: 254030462@qq.com
-    members:
-    - giteeid: Lizezhou1024
-      email: 969592931@qq.com    
-    - giteeid:qiu-libo
-      email:365332261@qq.com
-    - giteeid:lujiang-z
-      email:1915439269@qq.com
-    - giteeid:Ray-GA-17
-      email:1658088125@qq.com
-    - giteeid:lee887
-      email:2088608378@qq.com
+- teamid: 1729948753
+  teamname: "3d小队"
+  topicid: 16  
+  description: "teamid:1729948753，teamname:3d小队，topicid:16"
+  repotype: private
+  tutor:
+  - giteeid: riskiest   
+    email: 254030462@qq.com
+  members:
+  - giteeid: Lizezhou1024
+    email: 969592931@qq.com    
+  - giteeid:qiu-libo
+    email:365332261@qq.com
+  - giteeid:lujiang-z
+    email:1915439269@qq.com
+  - giteeid:Ray-GA-17
+    email:1658088125@qq.com
+  - giteeid:lee887
+    email:2088608378@qq.com
 # ===============  End  ===============
 
 
