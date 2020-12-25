@@ -792,7 +792,7 @@ teams:
   description: "TOPIC_ID:34, TEAM_ID:1271280343, TEAM_NAME:芜湖起飞！."
   repotype: private
   tutor: 
-  - giteeid: sugarfillet
+  - giteeid: sugarfillet     # 请在此填写团队导师的 Gitee 帐号
     email: song_shuaishuai@hoperun.com
   members:
   - giteeid: ReMindKirito
