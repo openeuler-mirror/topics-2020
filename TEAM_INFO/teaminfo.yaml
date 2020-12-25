@@ -2285,17 +2285,21 @@ teams:
 
 # 请团队编号为 1712827534 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1712827534
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1712827534
+  teamname: "七里香"
+  topicid: 72  # 请将 topicid 修改为你的赛题ID
+  description: "life is a fucking movie"
+  repotype: private
+  tutor:
+  - giteeid: pwang7       # 请在此填写团队导师的 Gitee 帐号
+    email: nicolas.weeks@gmail.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+  members:
+  - giteeid: bytepro         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: 2454227411@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+  - giteeid: zhang-zhankun         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: zzkmails@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+  - giteeid: yao-yizhe         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: 1210259697@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
 # ===============  End  ===============
 
 
