@@ -2225,6 +2225,7 @@ teams:
 
 # 请团队编号为 1397550304 的团队取消本段内容注释，并填写相关信息
 
+<<<<<<< master
   - teamid: 1397550304
     teamname: "一碗汤"
     topicid: 33  # 请将 topicid 修改为你的赛题ID
@@ -2244,6 +2245,27 @@ teams:
         email: 2891475701@qq.com
       - giteeid: kbyzwddycm
         email: 1357475833@qq.com
+=======
+#   - teamid: 1397550304
+#     teamname: "一碗汤"
+#     topicid: 33  # 请将 topicid 修改为你的赛题ID
+#     description: "TOPIC_ID:33, TEAM_ID:1397550304, TEAM_NAME:一碗汤."
+#     repotype: private
+#     tutor:
+#       - giteeid: pwang7       # 请在此填写团队导师的 Gitee 帐号
+#         email: nicolas.weeks@gmail.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+#     members:
+#       - giteeid: UsrAlpha
+#         email: 19975261083@163.com
+#       - giteeid: xu-yingjie-1997
+#         email: 976118484@qq.com
+#       - giteeid: zeng--tai
+#         email: 2864797176@qq.com
+#       - giteeid: zheng-houyu
+#         email: 2891475701@qq.com
+#       - giteeid: kbyzwddycm
+#         email: 1357475833@qq.com
+>>>>>>> master
 
 
 # 请团队编号为 1577420386 的团队取消本段内容注释，并填写相关信息
