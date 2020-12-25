@@ -949,23 +949,23 @@ teams:
 
 # 请团队编号为 1491717093 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
- - teamid: 1491717093
-   teamname: "国五大人"
-   topicid: 4  
-   description: "TOPIC_ID:4, TEAM_ID:1491717093, TEAM_NAME:国五大人."
-   repotype: private
-   tutor:
-   - giteeid: liliang_euler       
-     email: liliang6@me.com   
-   members:
-   - giteeid: zhengchen87         
-     email: zhengchen@iscas.ac.cn
-   - giteeid: stardustspace         
-     email: dongfangming18@mails.ucas.ac.cn
-   - giteeid: zonax         
-     email: 1455750388@qq.com
-   - giteeid: zamonia         
-     email: 13591506625@163.com    
+- teamid: 1491717093
+  teamname: "国五大人"
+  topicid: 4  
+  description: "TOPIC_ID:4, TEAM_ID:1491717093, TEAM_NAME:国五大人."
+  repotype: private
+  tutor:
+  - giteeid: liliang_euler       
+    email: liliang6@me.com   
+  members:
+  - giteeid: zhengchen87         
+    email: zhengchen@iscas.ac.cn
+  - giteeid: stardustspace         
+    email: dongfangming18@mails.ucas.ac.cn
+  - giteeid: zonax         
+    email: 1455750388@qq.com
+  - giteeid: zamonia         
+    email: 13591506625@163.com    
 # ===============  End  ===============
 
 
