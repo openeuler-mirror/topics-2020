@@ -35,19 +35,19 @@ teams:
 
 # 请团队编号为 888843645633 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-#- teamid: 888843645633
-#  teamname: "openEuler Team"
-#  topicid: 88  
-#  description: "openEuler Team"
-#  repotype: private
-#  tutor:
-#  - giteeid: georgecao
-#    email: caozhi1214@qq.com
-#  members:
-#  - giteeid: normal-coder
-#    email: normalcoder@qq.com
-#  - giteeid: TommyLike
-#    email: tommylikehu@gmail.com
+- teamid: 888843645633
+  teamname: "openEuler Team"
+  topicid: 88  
+  description: "openEuler Team"
+  repotype: private
+  tutor:
+  - giteeid: georgecao
+    email: caozhi1214@qq.com
+  members:
+  - giteeid: normal-coder
+    email: normalcoder@qq.com
+  - giteeid: TommyLike
+    email: tommylikehu@gmail.com
 # ===============  End  ===============
 
 
