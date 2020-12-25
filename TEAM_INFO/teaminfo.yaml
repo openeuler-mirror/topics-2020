@@ -827,17 +827,24 @@ teams:
 
 # 请团队编号为 1271280343 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1271280343
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1271280343 
+  teamname: "芜湖起飞！"
+  topicid: 34
+  description: "TOPIC_ID:34, TEAM_ID:1271280343, TEAM_NAME:芜湖起飞！."
+  repotype: private
+  tutor: 
+  - giteeid: sugarfillet     # 请在此填写团队导师的 Gitee 帐号
+    email: song_shuaishuai@hoperun.com
+  members:
+  - giteeid: ReMindKirito
+    email: 2028312235@qq.com
+  - giteeid: PO_8
+    email: 1003774405@qq.com
+  - giteeid: JXJ_1204784806
+    email: 1204784806@qq.com
+  - giteeid: zhu-xia
+    email: zhuxia@jit.edu.cn
+
 # ===============  End  ===============
 
 
