@@ -659,17 +659,17 @@ teams:
 
 # 请团队编号为 1884295854 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1884295854
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1884295854
+  teamname: "open源--飞翔"
+  topicid: 24  # 请将 topicid 修改为你的赛题ID
+  description: "未曾触摸过的极限，它在那里？"
+  repotype: private
+  tutor:
+  - giteeid: huangtianhua       # 请在此填写团队导师的 Gitee 帐号
+    email: tiantian223@163.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+  members:
+  - giteeid: DaChao         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: 2652302794@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
 # ===============  End  ===============
 
 
