@@ -1438,8 +1438,18 @@ teams:
   - giteeid:                    # 请在此填写团队导师的 Gitee 帐号
     email:                      # 请在此填写团队导师 Gitee 帐号绑定的邮箱
   members:
-  - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-    email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+  - giteeid: lovelijuny         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: lijunyi088@163.com    # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+  - giteeid: zhiway
+    email: zhiwayzhang@outlook.com
+  - giteeid: QC-qian-chen
+    email: 1723984553@qq.com
+  - giteeid: YouSura
+    email: 1273982851@qq.com
+  - giteeid: iamsoshy
+    email: 1282296177@qq.com
+  - giteeid: wu-danni
+    email: 1009181742@qq.com
 ===============  End  ===============
 
 
