@@ -719,6 +719,8 @@ teams:
     email: 530133968@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
   - giteeid: maglna1         # 请在此填写指导老师或参赛选手的 Gitee 帐号
     email: sufeng_shi@seu.edu.cn    # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+  - giteeid: yxwu666         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: yxwu666@gmail.com    # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
 # ===============  End  ===============
 
 
