@@ -268,25 +268,25 @@ teams:
 
 #请团队编号为 1729948753 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-- teamid: 1729948753
-  teamname: "3d小队"
-  topicid: 16  
-  description: "teamid:1729948753，teamname:3d小队，topicid:16"
-  repotype: private
-  tutor:
-  - giteeid: riskiest   
-    email: 254030462@qq.com
-  members:
-  - giteeid: Lizezhou1024
-    email: 969592931@qq.com    
-  - giteeid:qiu-libo
-    email:365332261@qq.com
-  - giteeid:lujiang-z
-    email:1915439269@qq.com
-  - giteeid:Ray-GA-17
-    email:1658088125@qq.com
-  - giteeid:lee887
-    email:2088608378@qq.com
+# - teamid: 1729948753
+#   teamname: "3d小队"
+#   topicid: 16  
+#   description: "teamid:1729948753，teamname:3d小队，topicid:16"
+#   repotype: private
+#   tutor:
+#   - giteeid: riskiest   
+#     email: 254030462@qq.com
+#   members:
+#   - giteeid: Lizezhou1024
+#     email: 969592931@qq.com    
+#   - giteeid:qiu-libo
+#     email:365332261@qq.com
+#   - giteeid:lujiang-z
+#     email:1915439269@qq.com
+#   - giteeid:Ray-GA-17
+#     email:1658088125@qq.com
+#   - giteeid:lee887
+#     email:2088608378@qq.com
 # ===============  End  ===============
 
 
@@ -926,7 +926,9 @@ teams:
   - giteeid: apprentice-1
     email: 1102725227@qq.com
   - giteeid: chengyuanxiaolaji
-    email: 233914837@qq.com 
+    email: 2339144837@qq.com
+  - giteeid: egoddd111
+    email: 2455501634@qq.com
 # ===============  End  ===============
 
 
@@ -2225,27 +2227,6 @@ teams:
 
 # 请团队编号为 1397550304 的团队取消本段内容注释，并填写相关信息
 
-<<<<<<< master
-  - teamid: 1397550304
-    teamname: "一碗汤"
-    topicid: 33  # 请将 topicid 修改为你的赛题ID
-    description: "TOPIC_ID:33, TEAM_ID:1397550304, TEAM_NAME:一碗汤."
-    repotype: private
-    tutor:
-      - giteeid: pwang7       # 请在此填写团队导师的 Gitee 帐号
-        email: nicolas.weeks@gmail.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-    members:
-      - giteeid: UsrAlpha
-        email: 19975261083@163.com
-      - giteeid: xu-yingjie-1997
-        email: 976118484@qq.com
-      - giteeid: zeng--tai
-        email: 2864797176@qq.com
-      - giteeid: zheng-houyu
-        email: 2891475701@qq.com
-      - giteeid: kbyzwddycm
-        email: 1357475833@qq.com
-=======
 #   - teamid: 1397550304
 #     teamname: "一碗汤"
 #     topicid: 33  # 请将 topicid 修改为你的赛题ID
@@ -2265,7 +2246,6 @@ teams:
 #         email: 2891475701@qq.com
 #       - giteeid: kbyzwddycm
 #         email: 1357475833@qq.com
->>>>>>> master
 
 
 # 请团队编号为 1577420386 的团队取消本段内容注释，并填写相关信息
