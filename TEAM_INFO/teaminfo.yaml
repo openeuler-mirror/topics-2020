@@ -2465,17 +2465,21 @@ teams:
 
 # 请团队编号为 1664457071 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1664457071
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1664457071
+  teamname: "兴趣使然队"
+  topicid: 30
+  description: "TOPIC_ID:30, TEAM_ID:1664457071, TEAM_NAME:兴趣使然队, TEAMDESCRIPTION:一个兴趣使然而促成的队伍"
+  repotype: private
+  tutor:
+  - giteeid: pwang7       
+    email: nicolas.weeks@gmail.com
+  members:
+  - giteeid: hsincsu      
+    email: 1479740636@qq.com
+  - giteeid: lufeiking0505       
+    email: 616767754@qq.com
+  - giteeid: allinnnn       
+    email: lujun7460@csu.edu.cn
 # ===============  End  ===============
 
 
