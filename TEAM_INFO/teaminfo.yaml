@@ -1345,7 +1345,7 @@ teams:
   repotype: private
   tutor:
   - giteeid: anchuanxu       # 请在此填写团队导师的 Gitee 帐号
-    email: anchuanxu@126.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+    email: chuanxu@iscas.ac.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
   members:
   - giteeid: yujiawen222   
     email: hanhaomin008@126.com 
