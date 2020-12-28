@@ -1332,17 +1332,25 @@ teams:
 
 # 请团队编号为 1902077371 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1902077371
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1902077371
+  teamname: "西邮Linux内核团队"
+  topicid: 6 
+  description: "热爱开源，践行开放、自由和分享。"
+  repotype: private
+  tutor:
+  - giteeid: MrRlu                
+    email: luzhihao@huawei.com      
+  members:
+  - giteeid: ljrcore                
+    email: liangjinrong111@163.com  
+  - giteeid: rice_tube_full         
+    email: 1175419804@qq.com        
+  - giteeid: jq-code              
+    email: 1412913158@qq.com       
+  - giteeid: dxlearn              
+    email: dx_learn@163.com       
+  - giteeid: zhangzipan    
+    email: z425072060@163.com 
 # ===============  End  ===============
 
 
