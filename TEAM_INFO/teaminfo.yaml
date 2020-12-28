@@ -91,19 +91,26 @@ teams:
 
 # 请团队编号为 1847643221 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1847643221
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1847643221
+  teamname: "锟斤拷"
+  topicid: 13
+  description: "参赛题号:13;队伍编号:1847643221;团队名称:锟斤拷"
+  repotype: private
+  tutor:
+  - giteeid: minknov
+    email: deng_guangxing@126.com
+  members:
+  - giteeid: DawnGuo
+    email: c865835207@163.com
+  - giteeid: csu_why
+    email: 576497613@qq.com
+  - giteeid: smallpond
+    email: db_smpond@163.com
+  - giteeid: spadep
+    email: 1551413719@qq.com
+  - giteeid: a_dang
+    email: 1940393163@qq.com
 # ===============  End  ===============
-
 
 # 请团队编号为 1311093680 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
