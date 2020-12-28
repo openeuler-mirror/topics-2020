@@ -263,25 +263,25 @@ teams:
 
 # 请团队编号为 1711685109 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
- - teamid: 1711685109
-   teamname: "听凭风引"
-   topicid: 16
-   description: "TOPIC_ID:16, TEAM_ID:1711685109, TEAM_NAME:听凭风引"
-   repotype: private
-   tutor:
-   - giteeid: riskiest
-     email: 254030462@qq.com
-   members:
-   - giteeid: ReMindKirito
-     email: 2028312235@qq.com
-   - giteeid: zygitee0115
-     email: 1511684714@qq.com
-   - giteeid: PO_8
-     email: 1003774405@qq.com
-   - giteeid: JXJ_1204784806
-     email: 1204784806@qq.com
-   - giteeid: zhu-xia
-     email: zhuxia@jit.edu.cn
+- teamid: 1711685109
+teamname: "听凭风引"
+topicid: 16
+description: "TOPIC_ID:16, TEAM_ID:1711685109, TEAM_NAME:听凭风引"
+repotype: private
+tutor:
+- giteeid: riskiest
+    email: 254030462@qq.com
+members:
+- giteeid: ReMindKirito
+    email: 2028312235@qq.com
+- giteeid: zygitee0115
+    email: 1511684714@qq.com
+- giteeid: PO_8
+    email: 1003774405@qq.com
+- giteeid: JXJ_1204784806
+    email: 1204784806@qq.com
+- giteeid: zhu-xia
+    email: zhuxia@jit.edu.cn
 # ===============  End  ===============
 
 
