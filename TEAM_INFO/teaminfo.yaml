@@ -1064,17 +1064,27 @@ teams:
 
 # 请团队编号为 1382578369 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1382578369
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1382578369
+  teamname: "Xiyou-LUG"
+  topicid: 4
+  description: "TOPIC_ID:4, TEAM_ID:1382578369, TEAM_NAME:Xiyou-LUG."
+  repotype: private
+  tutor:
+  - giteeid: liliang_euler
+    email: liliang6@me.com
+  members:
+  - giteeid: huloves
+    email: huloves@163.com
+  - giteeid: sunshouxun
+    email: randylambert@xiyoulinux.org
+  - giteeid: XU-ZZY
+    email: 1245215743@qq.com
+  - giteeid: g1050
+    email: 1005035266@qq.com
+  - giteeid: adlter
+    email: 1607364851@qq.com
+  - giteeid: cljcore_cljcore
+    email: cljcore@126.com
 # ===============  End  ===============
 
 
