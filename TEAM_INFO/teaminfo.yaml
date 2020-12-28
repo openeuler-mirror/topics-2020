@@ -2118,17 +2118,17 @@ teams:
 
 # 请团队编号为 1498417324 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1498417324
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1498417324
+  teamname: "总之就是非常可爱"
+  topicid: 46
+  description: "TOPIC_ID:46, TEAM_ID:1498417324, TEAM_NAME:总之就是非常可爱."
+  repotype: private
+  tutor:
+  - giteeid: leizhongkai
+    email: leizhongkai@huawei.com
+  members:
+  - giteeid: starkind
+    email: kind@mail.ustc.edu.cn
 # ===============  End  ===============
 
 
