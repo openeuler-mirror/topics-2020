@@ -1560,17 +1560,23 @@ teams:
 
 # 请团队编号为 1265757126 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1265757126
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1265757126
+  teamname: "不讲武德队"
+  topicid: 59 
+  description: "TOPIC_ID:59, TEAM_ID:1265757126, TEAM_NAME:不讲武德队."
+  repotype: private
+  tutor:
+  - giteeid: yeqinglong01
+    email: yeqinglong@uniontech.com
+  members:
+  - giteeid: wangsgzx
+    email: 9631364@qq.com
+  - giteeid: zdf123zdf
+    email: 2239432836@qq.com
+  - giteeid: dream-zhixia
+    email: l1451077915@foxmail.com
+  - giteeid: guo-wutao
+    email: 471750351@qq.com
 # ===============  End  ===============
 
 
