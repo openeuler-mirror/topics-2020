@@ -2272,8 +2272,8 @@ teams:
   description: "一勺海"
   repotype: private
   tutor:
-  - giteeid: null       # 请在此填写团队导师的 Gitee 帐号
-    email: null  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+  - giteeid: pwang7       # 请在此填写团队导师的 Gitee 帐号
+    email: nicolas.weeks@gmail.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
   members:
   - giteeid: busy_bob         # 请在此填写指导老师或参赛选手的 Gitee 帐号
     email: thubzy15@foxmail.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
