@@ -2500,7 +2500,7 @@ teams:
  - teamid: 1831229034
    teamname: "阿尔洛夫优"
    topicid: 38  # 请将 topicid 修改为你的赛题ID
-   description: "TOPIC_ID:38, TEAM_ID:1831229034, TEAM_NAME:阿尔洛夫优""
+   description: "TOPIC_ID:38, TEAM_ID:1831229034, TEAM_NAME:阿尔洛夫优"
    repotype: private
    tutor:
    - giteeid: wangxiaoqing987       # 请在此填写团队导师的 Gitee 帐号
