@@ -2037,17 +2037,20 @@ teams:
 
 # 请团队编号为 1068783999 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1068783999
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1068783999
+  teamname: "名字就随意吧"
+  topicid: 1
+  description: "TOPIC_ID:1, TEAM_ID:1068783999, TEAM_NAME:名字就随意吧."
+  repotype: private
+  tutor:
+  - giteeid: jingwoo
+    email: wujing50@huawei.com
+  members:
+  - giteeid: xu-hongjie1996
+    email: 297035071@qq.com
+  - giteeid: yuhang-ding
+    email: dingyh1996@163.com
+
 # ===============  End  ===============
 
 
