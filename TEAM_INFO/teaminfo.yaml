@@ -774,6 +774,9 @@ teams:
   topicid: 61
   description: "TOPIC_ID:61 TEAM_ID:1630522306 TEAM_NAME:夕阳红战队"
   repotype: private
+  tutor:
+  - giteeid: tushengxia
+    email: tushengxia@qq.com
   members:
   - giteeid: lslzoro11         
     email: 1873306949@qq.com
