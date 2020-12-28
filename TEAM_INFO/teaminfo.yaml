@@ -968,7 +968,7 @@ teams:
   description: "TOPIC_ID:57, TEAM_ID:1924513571, TEAM_NAME:BUPT_Gophers."
   repotype: private
   tutor:
-  - giteeid: haomintsai
+  - giteeid: caihaomin
     email: caihaomin@huawei.com
   members:
   - giteeid: xiaoyang__gu
