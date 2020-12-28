@@ -1119,7 +1119,7 @@ teams:
   - giteeid: woqidaideshi       # 请在此填写团队导师的 Gitee 帐号
     email: yafen@iscas.ac.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
   members:
-  - giteeid: daniao2017        # 请在此填写指导老师或参赛选手的 Gitee 帐号
+  - giteeid: daniao520        # 请在此填写指导老师或参赛选手的 Gitee 帐号
     email: 2868108923@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
   - giteeid: gontihc         # 请在此填写指导老师或参赛选手的 Gitee 帐号
     email: 996187410@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
