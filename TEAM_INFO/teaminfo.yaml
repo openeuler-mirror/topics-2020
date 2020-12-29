@@ -129,7 +129,7 @@ teams:
 
 
 # 请团队编号为 1473826747 的团队取消本段内容注释，并填写相关信息
-# =============== Start ===============
+# =============== Start =============== 
 - teamid: 1473826747
   teamname: "win300"
   topicid: 35  # 请将 topicid 修改为你的赛题ID
@@ -932,17 +932,23 @@ teams:
 
 # 请团队编号为 1160432764 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1160432764
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1160432764
+  teamname: "温润冰芯"
+  topicid: 34
+  description: "四个臭皮匠，超过诸葛亮"
+  repotype: private
+  tutor:
+  - giteeid: sugarfillet
+    email: song_shuaishuai@hoperun.com
+  members:
+  - giteeid: ZCodeTea
+    email: 15890118169@163.com
+  - giteeid: zelzelyang
+    email: 1258569671@qq.com
+  - giteeid: y1048524190
+    email: 1048524190@qq.com
+  - giteeid: songweixu
+    email: 2499943460@qq.com
 # ===============  End  ===============
 
 
