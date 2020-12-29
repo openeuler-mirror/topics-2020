@@ -2378,7 +2378,7 @@ teams:
 - teamid: 1237148526
   teamname: "鲲鹏"
   topicid: 27
-  description: "在线写代码"
+  description: "TOPIC_ID:27, TEAM_ID:1237148526, TEAM_NAME:鲲鹏"
   repotype: private
   tutor:
   - giteeid: pwang7
