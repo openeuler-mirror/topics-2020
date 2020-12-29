@@ -267,17 +267,26 @@ teams:
 
 # 请团队编号为 1711685109 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1711685109
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1711685109
+  teamname: 听凭风引
+  topicid: 17
+  description: "TOPIC_ID:16, TEAM_ID:1711685109, TEAM_NAME:听凭风引"
+  repotype: private
+  tutor:
+  - giteeid: riskiest       # 请在此填写团队导师的 Gitee 帐号
+    email: 254030462@qq.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+  members:
+  - giteeid: ReMindKirito         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: 2028312235@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+  - giteeid: zygitee0115         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: 1511684714@qq.com      # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱    
+  - giteeid: PO_8         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: 1003774405@qq.com      # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱  
+  - giteeid: JXJ_1204784806         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: 1204784806@qq.com      # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱   
+  - giteeid: zhu-xia         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: zhuxia@jit.edu.cn      # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱   
+
 # ===============  End  ===============
 
 
