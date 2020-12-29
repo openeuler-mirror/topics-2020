@@ -477,19 +477,28 @@ teams:
 # ===============  End  ===============
 
 
+
 # 请团队编号为 1090721196 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1090721196
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1090721196
+  teamname: "猫的薛定谔"
+  topicid: 64  # 请将 topicid 修改为你的赛题ID
+  description: "TOPIC_ID:64, TEAM_ID:1090721196, TEAM_NAME:猫的薛定谔."
+  repotype: private
+  tutor:
+  - giteeid: riskiest       # 请在此填写团队导师的 Gitee 帐号
+    email: 254030462@qq.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+  members:
+  - giteeid: zzzzzorz         
+    email: 348801615@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+  - giteeid: LamHoiyan         
+    email: 1072201515@qq.com 
+  - giteeid: lin-yongxin         
+    email: 751166235@qq.com
+  - giteeid: loocq          
+    email: loocq@qq.com
+  - giteeid: ykwy         
+    email: 1304059250@qq.com 
 # ===============  End  ===============
 
 
