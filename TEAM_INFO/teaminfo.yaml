@@ -2255,33 +2255,41 @@ teams:
 
 # 请团队编号为 1758517937 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1758517937
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1758517937
+  teamname: "18中兴通讯学院"
+  topicid: 82  
+  description: "TOPIX_ID:82, TEAM_ID:1758517937, TEAM_NAME:18中兴通讯学院."
+  repotype: private
+  tutor:
+  - giteeid: lemon-higgins
+    email: lemon.higgins@aliyun.com
+  members:
+  - giteeid: gong-zihao
+    email: 380298771@qq.com
+  - giteeid: hign-column
+    email: 1161272044@qq.com
+  - giteeid: yangzhao306394308
+    email: 306394308@qq.com
 # ===============  End  ===============
 
 
 # 请团队编号为 1574368102 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1574368102
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1574368102
+  teamname: "惊涛者"
+  topicid: 83  
+  description: "TOPIX_ID:82, TEAM_ID:1574368102, TEAM_NAME:惊涛者."
+  repotype: private
+  tutor:
+  - giteeid: lemon-higgins
+    email: lemon.higgins@aliyun.com
+  members:
+  - giteeid: gong-zihao
+    email: 380298771@qq.com
+  - giteeid: hign-column
+    email: 1161272044@qq.com
+  - giteeid: yangzhao306394308
+    email: 306394308@qq.com
 # ===============  End  ===============
 
 
