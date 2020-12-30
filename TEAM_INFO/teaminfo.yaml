@@ -1656,17 +1656,21 @@ teams:
 
 # 请团队编号为 1675026513 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1675026513
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1675026513
+  teamname: "没有DDL所以睡得香"
+  topicid: 59
+  description: "TOPIC_ID:59, TEAM_ID:1675026513, TEAM_NAME:没有DDL所以睡得香."
+  repotype: private
+  tutor:
+  - giteeid: yeqinglong01
+    email: yeqinglong@uniontech.com
+  members:
+  - giteeid: wayer-liu
+    email: liuweier18@mails.ucas.ac.cn
+  - giteeid: Sooyibin
+    email: wangyibin18@mails.ucas.ac.cn
+  - giteeid: cherry_ccl
+    email: 1216948497@qq.com
 # ===============  End  ===============
 
 
