@@ -1302,8 +1302,8 @@ teams:
    description: "来自M78星云的队伍"
    repotype: private
    tutor:
-   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+   - giteeid: huzhifeng       # 请在此填写团队导师的 Gitee 帐号
+     email: huzhifeng@kylinos.com.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
    members:
    - giteeid: gaocuifen         # 请在此填写指导老师或参赛选手的 Gitee 帐号
      email: 870833315@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
