@@ -356,16 +356,18 @@ teams:
   description: "TOPIC_ID:16, TEAM_ID:1974795161, TEAM_NAME:皇德耀世."
   repotype: private
   tutor:
-  - giteeid: 18627085250       # 请在此填写团队导师的 Gitee 帐号
-    email: kangxj@cug.edu.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+  - giteeid: riskiest       # 请在此填写团队导师的 Gitee 帐号
+    email: 254030462@qq.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
   members:
+  - giteeid: kangxiaojun
+    email: kangxj@cug.edu.cn
   - giteeid: Yunban99         # 请在此填写指导老师或参赛选手的 Gitee 帐号
     email: 1911254653@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
   - giteeid: JiaHuiYin
     email: 1228200950@qq.com
   - giteeid: wh_12138
     email: 2056901285@qq.com
-  - giteeid: 15351226506
+  - giteeid: jackeeeeeeeeeey
     email: 194652370@qq.com
 # ===============  End  ===============
 
