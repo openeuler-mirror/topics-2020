@@ -382,17 +382,25 @@ teams:
 
 # 请团队编号为 1127165479 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1127165479
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1127165479
+  teamname: "UESTC_机器不学习"
+  topicid: 17  # 请将 topicid 修改为你的赛题ID
+  description: "11727165479-17-UESTC_机器不学习"
+  repotype: private
+  tutor:
+  - giteeid: riskiest       # 请在此填写团队导师的 Gitee 帐号
+    email: 254030462@qq.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+  members:
+  - giteeid: xiang_zh         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: zhangx@uestc.edu.cn     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+  - giteeid: flora_64         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: 936497246@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+  - giteeid: Action_now          # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: x888632157@163.com    # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+  - giteeid: yukiyousa         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: 2069611139@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+  - giteeid: quaintsun         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: quaintsun@foxmail.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
 # ===============  End  ===============
 
 
