@@ -2615,19 +2615,28 @@ teams:
 
 # 请团队编号为 1302898958 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1302898958
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1302898958
+  teamname: "给文件打工"
+  topicid: 38
+  description: "没有困难的工作只有勇敢的打工人"
+  repotype: private
+  tutor:
+  - giteeid: wangxiaoqing987       
+    email: 2413871989@qq.com
+  members:
+  - giteeid: liu-shuxian        
+    email: lsx623@163.com 
+  - giteeid: boxxuanzhe
+    email: 1508421399@qq.com  
+  - giteeid: ergouza
+    email: 1954797653@qq.com  
+  - giteeid: lu_shouqian 
+    email: 3461196860@qq.com  
+  - giteeid: lzx_0hh1
+    email: 1346792979@qq.com   
+  - giteeid: gmeme
+    email: 3033241088@qq.com
 # ===============  End  ===============
-
 
 # 请团队编号为 1831229034 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
