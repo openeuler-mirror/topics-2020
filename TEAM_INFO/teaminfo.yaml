@@ -1307,11 +1307,11 @@ teams:
    members:
    - giteeid: gaocuifen         # 请在此填写指导老师或参赛选手的 Gitee 帐号
      email: 870833315@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
-     - giteeid: rez5427         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+   - giteeid: rez5427         # 请在此填写指导老师或参赛选手的 Gitee 帐号
      email: 785369607@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
-     - giteeid: sort_ink         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+   - giteeid: sort_ink         # 请在此填写指导老师或参赛选手的 Gitee 帐号
      email: 2842497194@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
-     - giteeid: zz2321651754         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+   - giteeid: zz2321651754         # 请在此填写指导老师或参赛选手的 Gitee 帐号
      email: 2321651754@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
 # ===============  End  ===============
 
