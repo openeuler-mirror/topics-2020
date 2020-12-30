@@ -350,17 +350,19 @@ teams:
 
 # 请团队编号为 1974795161 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1974795161
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+ - teamid: 1974795161
+   teamname: "皇德耀世"
+   topicid: 16  # 请将 topicid 修改为你的赛题ID
+   description: "TOPIC_ID:16, TEAM_ID:1974795161,TEAM_NAME:皇德耀世."
+   repotype: private
+   tutor:
+   - giteeid: 18627085250       # 请在此填写团队导师的 Gitee 帐号
+     email: kangxj@cug.edu.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+   members:
+   - giteeid: yunban99         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+     email: 1911254653@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+   - giteeid: JiaHuiYin
+     email: 1228200950@qq.com
 # ===============  End  ===============
 
 
