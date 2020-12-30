@@ -629,10 +629,10 @@ teams:
   members:
   - giteeid: darkleung         # 请在此填写指导老师或参赛选手的 Gitee 帐号
     email: leeeung@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
-  - giteeid:
-    email:
-  - giteeid:
-    email:
+  - giteeid: beneaththemask
+    email: 11711815@mail.sustech.edu.cn
+  - giteeid: tikiwang
+    email: 11711613@mail.sustech.edu.cn
 # ===============  End  ===============
 
 
