@@ -1431,15 +1431,13 @@ teams:
 # =============== Start ===============
 - teamid: 1625894350
   teamname: "Prime"
-  topicid: 77  # 请将 topicid 修改为你的赛题ID
+  topicid: 77  
   description: ""
   repotype: private
   tutor:
-  - giteeid:                    # 请在此填写团队导师的 Gitee 帐号
-    email:                      # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+  - giteeid: lovelijuny           
+    email: lijunyi088@163.com      
   members:
-  - giteeid: lovelijuny         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-    email: lijunyi088@163.com    # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
   - giteeid: zhiway
     email: zhiwayzhang@outlook.com
   - giteeid: QC-qian-chen
