@@ -199,18 +199,26 @@ teams:
 
 # 请团队编号为 1904725139 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1904725139
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
-# ===============  End  ===============
+ - teamid: 1904725139
+   teamname: "将个烂就"
+   topicid: 35  
+   description: "这是pengdeming的opopenEuler战队"
+   repotype: private
+   tutor:
+- giteeid:zhouwjfi 
+     email: zhouwjfi@163.com  
+   members:
+   - giteeid: pengdeming         
+     email: 3170945379@qq.com 
+     giteeid: mylq999         
+     email: 2281572818@qq.com
+     giteeid: zhaozhaochaochao      
+     email: 1286722362@qq.com 
+     giteeid: a17872887843lp         
+     email: 2058375094@qq.com
+     giteeid: if-the-heart-is-there       
+     email: 1121541524@qq.com     
+ ===============  End  ===============
 
 
 # 请团队编号为 1259511522 的团队取消本段内容注释，并填写相关信息
