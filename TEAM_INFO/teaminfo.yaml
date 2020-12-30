@@ -1332,21 +1332,21 @@ teams:
 
 # 请团队编号为 1553292590 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
- - teamid: 1553292590
-   teamname: "bash"
-   topicid: 26
-   description: "TOPIC_ID:26, TEAM_ID:1553292590, TEAM_NAME:bash"
-   repotype: private
-   tutor:
-   - giteeid: pikeTWG
-     email: tianwengang@huawei.com
-   members:
-   - giteeid: kaiakx
-     email: d-kai@foxmail.com
-   - giteeid: fatal_error
-     email: graph_lin@outlook.com
-   - giteeid: lyz05
-     email: 294068487@qq.com          
+- teamid: 1553292590
+  teamname: "bash"
+  topicid: 26
+  description: "TOPIC_ID:26, TEAM_ID:1553292590, TEAM_NAME:bash"
+  repotype: private
+  tutor:
+  - giteeid: pikeTWG
+    email: tianwengang@huawei.com
+  members:
+  - giteeid: kaiakx
+    email: d-kai@foxmail.com
+  - giteeid: fatal_error
+    email: graph_lin@outlook.com
+  - giteeid: lyz05
+    email: 294068487@qq.com          
 # ===============  End  ===============
 
 
