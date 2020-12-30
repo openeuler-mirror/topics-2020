@@ -358,16 +358,16 @@ teams:
 # 请团队编号为 1504200213 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
 - teamid: 1504200213
-   teamname: "igst-sjtu"
-   topicid: 17  # 请将 topicid 修改为你的赛题ID
-   description: "igst-sjtu 17 大吉大利"
-   repotype: private
-   tutor:
-   - giteeid: riskiest       # 请在此填写团队导师的 Gitee 帐号
-     email: 254030462@qq.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-   members:
-   - giteeid: xiaoerlaigeid         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-     email: 302807330@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+  teamname: "igst-sjtu"
+  topicid: 17  # 请将 topicid 修改为你的赛题ID
+  description: "igst-sjtu 17 大吉大利"
+  repotype: private
+  tutor:
+  - giteeid: riskiest       # 请在此填写团队导师的 Gitee 帐号
+    email: 254030462@qq.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+  members:
+  - giteeid: xiaoerlaigeid         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: 302807330@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
 # ===============  End  ===============
 
 
