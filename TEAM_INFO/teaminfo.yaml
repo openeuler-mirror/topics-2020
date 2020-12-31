@@ -603,17 +603,17 @@ teams:
 # ===============  End  ===============
 
 
-   - teamid: 1779560749
-   teamname: "超级AI风暴"
-   topicid: 64  
-   description: 'TOPIC_ID:64, TEAM_ID:1779560749, TEAM_NAME:超级AI风暴.'
-   repotype: private
-   tutor:
+- teamid: 1779560749
+  teamname: "超级AI风暴"
+  topicid: 64  
+  description: 'TOPIC_ID:64, TEAM_ID:1779560749, TEAM_NAME:超级AI风暴.'
+  repotype: private
+  tutor:
   - giteeid: riskiest
     email: 254030462@qq.com
-   members:
-   - giteeid: huabao         
-     email: huabao9707@163.com     
+  members:
+  - giteeid: huabao         
+    email: huabao9707@163.com     
 
 
 
