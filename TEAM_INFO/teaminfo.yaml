@@ -608,6 +608,9 @@ teams:
    topicid: 64  
    description: 'TOPIC_ID:64, TEAM_ID:1779560749, TEAM_NAME:超级AI风暴.'
    repotype: private
+   tutor:
+  - giteeid: riskiest
+    email: 254030462@qq.com
    members:
    - giteeid: huabao         
      email: huabao9707@163.com     
