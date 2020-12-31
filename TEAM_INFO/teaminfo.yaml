@@ -114,17 +114,25 @@ teams:
 
 # 请团队编号为 1311093680 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1311093680
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1311093680
+  teamname: "Matrix"
+  topicid: 35 
+  description: "TOPIC_ID:35, TEAM_ID:1311093680, TEAM_NAME:Matrix."
+  repotype: private
+  tutor:
+  - giteeid: zhouwjfi       
+    email: zhouwjfi@163.com  
+  members:
+  - giteeid: ou-huirong        
+    email: 2328416135@qq.com
+  - giteeid: zhou-lang-lang      
+    email: 3505260374@qq.com
+  - giteeid: Nazimei        
+    email: 1368905609@qq.com
+  - giteeid: li-qikang666       
+    email: 2573894770@qq.com
+  - giteeid: wu-xinru       
+    email: 1780001621@qq.com
 # ===============  End  ===============
 
 
