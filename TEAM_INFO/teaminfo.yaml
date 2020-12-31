@@ -1557,16 +1557,16 @@ teams:
 # 请团队编号为 1431400788 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
 - teamid: 1431400788
-   teamname: "Signal_Lab"
-   topicid: 43  # 请将 topicid 修改为你的赛题ID
-   description: "TOPIC_ID:43, TEAM_ID:1431400788, TEAM_NAME:Signal_Lab."
-   repotype: private
-   tutor:
-   - giteeid: overweight       # 请在此填写团队导师的 Gitee 帐号
-     email: hexiaowen@huawei.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-   members:
-   - giteeid: vanisignal         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-     email: prcups@163.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+  teamname: "Signal_Lab"
+  topicid: 43  # 请将 topicid 修改为你的赛题ID
+  description: "TOPIC_ID:43, TEAM_ID:1431400788, TEAM_NAME:Signal_Lab."
+  repotype: private
+  tutor:
+  - giteeid: overweight       # 请在此填写团队导师的 Gitee 帐号
+    email: hexiaowen@huawei.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+  members:
+  - giteeid: vanisignal         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: prcups@163.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
 # ===============  End  ===============
 
 
