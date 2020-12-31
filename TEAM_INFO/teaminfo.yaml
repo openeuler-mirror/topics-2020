@@ -1556,7 +1556,7 @@ teams:
 
 # 请团队编号为 1431400788 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
- - teamid: 1431400788
+- teamid: 1431400788
    teamname: "Signal_Lab"
    topicid: 43  # 请将 topicid 修改为你的赛题ID
    description: "TOPIC_ID:43, TEAM_ID:1431400788, TEAM_NAME:Signal_Lab."
