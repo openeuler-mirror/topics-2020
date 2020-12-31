@@ -886,9 +886,11 @@ teams:
   description: "以和为贵，文武有德"
   repotype: private
   tutor:
-  - giteeid: feiyan2       # 请在此填写团队导师的 Gitee 帐号
-    email: 826029488@qq.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+  - giteeid: sugarfillet       # 请在此填写团队导师的 Gitee 帐号
+    email: song_shuaishuai@hoperun.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
   members:
+  - giteeid: feiyan2         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: 826029488@qq.com
   - giteeid: ItsumiKyo         # 请在此填写指导老师或参赛选手的 Gitee 帐号
     email: o990102@gmail.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
   - giteeid: shi_wl
