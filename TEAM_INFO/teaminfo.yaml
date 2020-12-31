@@ -880,19 +880,19 @@ teams:
 
 # 请团队编号为 1767687768 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
- - teamid: 1767687768
-   teamname: 耗子尾汁
-   topicid: 34
-   description: "以和为贵，文武有德"
-   repotype: private
-   tutor:
-   - giteeid: feiyan2       # 请在此填写团队导师的 Gitee 帐号
-     email: 826029488@qq.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-   members:
-   - giteeid: ItsumiKyo         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-     email: o990102@gmail.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
-   - giteeid: shi_wl
-     email: 769886973@qq.com
+- teamid: 1767687768
+  teamname: "耗子尾汁"
+  topicid: 34
+  description: "以和为贵，文武有德"
+  repotype: private
+  tutor:
+  - giteeid: feiyan2       # 请在此填写团队导师的 Gitee 帐号
+    email: 826029488@qq.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+  members:
+  - giteeid: ItsumiKyo         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: o990102@gmail.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+  - giteeid: shi_wl
+    email: 769886973@qq.com
 # ===============  End  ===============
 
 
