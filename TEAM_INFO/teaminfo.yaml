@@ -2127,8 +2127,8 @@ teams:
   description: "Moksha"
   repotype: private
   tutor:
-  - giteeid: Dave110       # 请在此填写团队导师的 Gitee 帐号
-    email: zhouqiang@kylinos.com.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+  - giteeid: Dave110      
+    email: zhouqiang@kylinos.com.cn 
   members:
   - giteeid: lixm351         # 请在此填写指导老师或参赛选手的 Gitee 帐号
     email: lixiaoming@tyust.edu.cn     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
