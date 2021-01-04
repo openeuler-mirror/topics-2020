@@ -2124,7 +2124,7 @@ teams:
 - teamid: 1194300140
   teamname: "Moksha"
   topicid: 37  # 请将 topicid 修改为你的赛题ID
-  description: "Moksha"
+  description: "TOPIC_ID:37, TEAM_ID:1194300140, TEAM_NAME:Moksha."
   repotype: private
   tutor:
   - giteeid: Dave110      
