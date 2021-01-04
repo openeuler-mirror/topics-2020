@@ -2570,7 +2570,7 @@ teams:
 # ===============  End  ===============
 
 
-请团队编号为 1503070509 的团队取消本段内容注释，并填写相关信息
+# 请团队编号为 1503070509 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
 - teamid: 1503070509
   teamname: "zz"
@@ -2578,8 +2578,8 @@ teams:
   description: "用Rust实现高性能纠删码"
   repotype: private
   tutor:
-  - giteeid: zon       # 请在此填写团队导师的 Gitee 帐号
-    email: zongzh.hd@163.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+  - giteeid: pwang7         # 请在此填写团队导师的 Gitee 帐号
+    email: nicolas.weeks@gmail.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
   members:
   - giteeid: zon         # 请在此填写指导老师或参赛选手的 Gitee 帐号
     email: zongzh.hd@163.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
