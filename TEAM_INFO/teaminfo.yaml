@@ -1514,19 +1514,19 @@ teams:
 
 # 请团队编号为 1672746583 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-  - teamid: 1672746583
-    teamname: "请将此内容修改为你的团队名称"
-    topicid: 66  # 请将 topicid 修改为你的赛题ID
-    description: "请将此内容修改为你的团队介绍"
-    repotype: private
-    tutor:
-    - giteeid: anchuanxu       # 请在此填写团队导师的 Gitee 帐号
-      email: chuanxu@iscas.ac.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-    members:
-    - giteeid: cheng-yan         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-      email: 15128110178@163.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
-    - giteeid: hello_guohao         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-      email: 18730217105@163.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1672746583
+  teamname: "hello world"
+  topicid: 66  # 请将 topicid 修改为你的赛题ID
+  description: "hello world"
+  repotype: private
+  tutor:
+  - giteeid: anchuanxu       # 请在此填写团队导师的 Gitee 帐号
+    email: chuanxu@iscas.ac.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+  members:
+  - giteeid: cheng-yan         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: 15128110178@163.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+  - giteeid: hello_guohao         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: 18730217105@163.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
 # ===============  End  ===============
 
 
