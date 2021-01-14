@@ -1254,17 +1254,17 @@ teams:
 
 # 请团队编号为 1740417275 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1740417275
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1740417275
+  teamname: "中国科学院大学某队"
+  topicid: 67
+  description: "咕咕咕"
+  repotype: private
+  tutor:
+  - giteeid: woqidaideshi
+    email: yafen@iscas.ac.cn
+  members:
+  - giteeid: qiao-jianle
+    email: qiaojianle18@mails.ucas.ac.cn
 # ===============  End  ===============
 
 
