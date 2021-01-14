@@ -1525,7 +1525,7 @@ teams:
   members:
   - giteeid: cheng-yan         # 请在此填写指导老师或参赛选手的 Gitee 帐号
     email: 15128110178@163.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
-  - giteeid: hello_guohao         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+  - giteeid: hello-guohao         # 请在此填写指导老师或参赛选手的 Gitee 帐号
     email: 18730217105@163.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
 # ===============  End  ===============
 
