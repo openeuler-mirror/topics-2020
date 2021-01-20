@@ -392,17 +392,19 @@ teams:
 
 # 请团队编号为 1016927859 的团队取消本段内容注释，并填写相关信息
 # =============== Start ===============
-# - teamid: 1016927859
-#   teamname: "请将此内容修改为你的团队名称"
-#   topicid: 88  # 请将 topicid 修改为你的赛题ID
-#   description: "请将此内容修改为你的团队介绍"
-#   repotype: private
-#   tutor:
-#   - giteeid: zhangsanfeng       # 请在此填写团队导师的 Gitee 帐号
-#     email: zhangsan@oschina.cn  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
-#   members:
-#   - giteeid: littlegirl         # 请在此填写指导老师或参赛选手的 Gitee 帐号
-#     email: lisi1@huawei.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+- teamid: 1016927859
+  teamname: "3d-可视化小组"
+  topicid: 17  # 请将 topicid 修改为你的赛题ID
+  description: "teamid:1016927859, 可视化项目"
+  repotype: private
+  tutor:
+  - giteeid: riskiest       # 请在此填写团队导师的 Gitee 帐号
+    email: 254030462@qq.com  # 请在此填写团队导师 Gitee 帐号绑定的邮箱
+  members:
+  - giteeid: summinter         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: 1872800910@qq.com     # 请在此填写指导老师或参赛选手的 Gitee 帐号绑定的邮箱
+  - giteeid: LuoAo22         # 请在此填写指导老师或参赛选手的 Gitee 帐号
+    email: 1760167608@qq.com 
 # ===============  End  ===============
 
 
